@@ -1,0 +1,23 @@
+Time I have spent on this project:
+Feb 5, 8-12, 15-19, 22-24
+
+(Updated on 3/5/21)
+Hours: ~70
+
+Basic premise of what I have been working on for each day
+5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
+
+8th-10th; Read in the initial dataset. Look through it and see that it is AWFUL (big shock I know) do my best to clean it, 
+    get rid of unnecessary data, or somehow change it to be more accurate to the column it is in (I don't believe there is a zip code
+    called 'poasoejfpo','????', or 'hotmail.com')
+
+11th-12th; Once the data is in a good enough spot to be worked with, start making the very first machine learning algorithm. Start with
+    descision tree and go from there. Change some things in the data set or how I feed the data into the algorithm. Try an XKBoost
+    next.
+
+15th-17th; Feel confident that the model I made can accurately predict which leads turn into customers. Fail. Get stopped immedieatly
+    by how starkly different the data is from the testing data. Feel bad about myself. 
+
+18th-19th, 22-24th; Feel better about myself because my manager wants me to get some different numbers aobut leads and reps. Think
+    about how I can use these new numbers to better my old algorithms. Start working on getting the 'Speed to Contact' numbers and
+    the 'Time to Appointment' numbers. Use those for the main work project AND my new machine learning algorithms.  
