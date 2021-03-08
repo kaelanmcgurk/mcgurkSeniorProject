@@ -133,7 +133,7 @@ FebCleanedLeads = FebCleanedLeads.assign(
 
 
 #%%
-zipCodeDict = {'zip_code': int}
+zipCodeDict = {'zip_code': 'int64'}
 FebCleanedLeads = FebCleanedLeads.astype(zipCodeDict)
 FebCleanedLeads = FebCleanedLeads.query('zip_code < 100000 & zip_code > 9999')
 
