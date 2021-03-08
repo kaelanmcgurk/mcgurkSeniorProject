@@ -301,9 +301,26 @@ featureChart
 # Start the process for the 
 #   neural network
 ###################################
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers, losses
 
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Dense(units = 223, activation = 'relu'),
+    tf.keras.layers.Dense(units = 100, activation = 'relu'),
+    tf.keras.layers.Dense(units = 100, activation = 'relu'),
+    tf.keras.layers.Dense(units = 1)    
+])
 
+model.compile(loss=losses.BinaryCrossentropy(from_logits=True),
+    optimizer='adam',
+    metrics=tf.metrics.BinaryAccuracy(threshold=0.0))
 
+model.fit(Xtrain, yTrain, batch_size=32, epochs=15, validation_split=.20, verbose = 0)
+
+test_loss, test_acc = model.evaluate(Xtrain,  yTrain, verbose=2)
+
+print('\nTest accuracy:', test_acc)
 #%%
 #leadInfoML.to_csv(r'leadInfoML.csv')
 # %%
