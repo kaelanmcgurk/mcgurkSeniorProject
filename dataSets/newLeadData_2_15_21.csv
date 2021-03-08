@@ -1,0 +1,1068 @@
+lead_id,leadName,lead_source,lead_source_type,agentId,agentName,yearCreated,monthCreated,dayCreated,dayName,city,state,zip_code,electric_company,status
+56016,Mike Crose,172,6,,,2021,2,11,Thursday,,,,,66
+56016,Mike Crose,172,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56016,Mike Crose,172,6,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,21
+56017,Jim Churchill,173,6,,,2021,2,11,Thursday,,,,,66
+56017,Jim Churchill,173,6,9327768,Base API User,2021,2,11,Thursday,,,,,80
+56017,Jim Churchill,173,6,1368598,Gideon Reynolds,2021,2,11,Thursday,,,,,34
+56018,Charles  Lum,143,17,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56018,Charles  Lum,143,17,3326583,Jacob Poppenger,2021,2,11,Thursday,,,,,21
+56020,,181,16,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56020,,181,16,6732050,Josh Hill,2021,2,11,Thursday,,,,,5
+56021,Curtis Tate,172,6,,,2021,2,11,Thursday,,,,,66
+56021,Curtis Tate,172,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56022,Robert Travis Martin Martin,193,6,,,2021,2,11,Thursday,,,,,66
+56022,Robert Travis Martin Martin,193,6,9327768,Base API User,2021,2,11,Thursday,,,,,80
+56022,Robert Travis Martin Martin,193,6,9745922,Ben Barker,2021,2,11,Thursday,,,,,21
+56024,Samuel Sandt,230,6,,,2021,2,11,Thursday,Hollister,Missouri,65672,Empire-Liberty,66
+56024,Samuel Sandt,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,Hollister,Missouri,65672,Empire-Liberty,23
+56024,Samuel Sandt,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Hollister,Missouri,65672,Empire-Liberty,21
+56024,Samuel Sandt,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Hollister,Missouri,65672,Empire-Liberty,21
+56024,Samuel Sandt,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Hollister,Missouri,65672,Empire-Liberty,3
+56025,Kimberly Garlington,174,6,,,2021,2,11,Thursday,,,,,66
+56025,Kimberly Garlington,174,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56026,Mark Fielden,146,34,1206784,Jacob Elkins,2021,2,11,Thursday,,,,Other,21
+56027,Lisa Cole,193,6,6419170,Daniel Samuelson,2021,2,11,Thursday,,,,,21
+56027,Lisa Cole,193,6,6419170,Daniel Samuelson,2021,2,11,Thursday,,,,,58
+56028,,146,34,1206784,Jacob Elkins,2021,2,11,Thursday,,,,,23
+56028,,146,34,7346193,Faith Ames,2021,2,11,Thursday,,,,,5
+56029,Mike Haas,193,6,2218026,Veronica Crowfoot,2021,2,11,Thursday,,,,,21
+56029,Mike Haas,193,6,6738979,Matt May,2021,2,11,Thursday,,,,,5
+56030,Eugene Kullmann,172,6,,,2021,2,11,Thursday,,,,,66
+56030,Eugene Kullmann,172,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56031,Carrie Coleman,230,6,,,2021,2,11,Thursday,,,,,66
+56031,Carrie Coleman,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,76
+56032,Jonathan  Thomas,230,6,,,2021,2,11,Thursday,,,,,66
+56032,Jonathan  Thomas,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56032,Jonathan  Thomas,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,21
+56033,Mike Russell,193,6,1368598,Gideon Reynolds,2021,2,11,Thursday,,,,Arkansas Valley Electric,34
+56034,David Lamoreaux,230,6,,,2021,2,11,Thursday,,,,,66
+56034,David Lamoreaux,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56035,Haley Norris,29,17,1206784,Jacob Elkins,2021,2,11,Thursday,,,,,23
+56036,Andrew and Elizabeth Gunnels,230,6,,,2021,2,11,Thursday,Conway,Arkansas,72032,Entergy,66
+56036,Andrew and Elizabeth Gunnels,230,6,3326583,Jacob Poppenger,2021,2,11,Thursday,Conway,Arkansas,72032,Entergy,21
+56036,Andrew and Elizabeth Gunnels,230,6,3326583,Jacob Poppenger,2021,2,11,Thursday,Conway,Arkansas,72032,Entergy,3
+56036,Andrew and Elizabeth Gunnels,230,6,3326583,Jacob Poppenger,2021,2,11,Thursday,Conway,Arkansas,72032,Entergy,21
+56037,Rachel  Flynn,230,6,,,2021,2,11,Thursday,,,,,66
+56037,Rachel  Flynn,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56037,Rachel  Flynn,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,53
+56038,Kimberly Powers,230,6,,,2021,2,11,Thursday,,,,,66
+56038,Kimberly Powers,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56039,Tiffany Morrison,193,6,2711226,Sam Danehower,2021,2,11,Thursday,Grove,Oklahoma,74344,Other,21
+56039,Tiffany Morrison,193,6,2711226,Sam Danehower,2021,2,11,Thursday,Grove,Oklahoma,74344,Other,3
+56040,Deborah Huenink,193,6,1368598,Gideon Reynolds,2021,2,11,Thursday,Nixa,Missouri,65714,Ozark Missouri,21
+56040,Deborah Huenink,193,6,1368598,Gideon Reynolds,2021,2,11,Thursday,Nixa,Missouri,65714,Ozark Missouri,3
+56041,Linda Green,230,6,,,2021,2,11,Thursday,,,,,66
+56041,Linda Green,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56043,Billy Treadwell,214,17,1206784,Jacob Elkins,2021,2,11,Thursday,,,,,23
+56046,Brenda Piercefield,221,34,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,30
+56049,Ian  Mason,221,34,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,34
+56050,Harrison Beller,172,6,,,2021,2,11,Thursday,,,,,66
+56050,Harrison Beller,172,6,1206784,Jacob Elkins,2021,2,11,Thursday,,,,,23
+56051,Michael and Jennifer Webb,221,34,3610377,William Paget,2021,2,11,Thursday,Claremore,Oklahoma,74019,Other,21
+56051,Michael and Jennifer Webb,221,34,3610377,William Paget,2021,2,11,Thursday,Claremore,Oklahoma,74019,Other,3
+56051,Michael and Jennifer Webb,221,34,3610377,William Paget,2021,2,11,Thursday,Claremore,Oklahoma,74019,Other,21
+56053,Alison Fields,230,6,,,2021,2,11,Thursday,,,,,66
+56053,Alison Fields,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56054,"Rita Bergman ",230,6,,,2021,2,11,Thursday,,,,,66
+56054,"Rita Bergman ",230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,64
+56056,Chris LeBlanc,193,6,9745922,Ben Barker,2021,2,11,Thursday,Edmond,Oklahoma,73025,Other,21
+56057,"Rikki VanOrsdol ",143,17,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56057,"Rikki VanOrsdol ",143,17,3326583,Jacob Poppenger,2021,2,11,Thursday,,,,,21
+56058,Shena Dan,172,6,,,2021,2,11,Thursday,,,,,66
+56058,Shena Dan,172,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56059,Greg Pickens,193,6,,,2021,2,11,Thursday,pea ridge,Arkansas,72751,Carroll,66
+56059,Greg Pickens,193,6,2916217,Jesi Ripley,2021,2,11,Thursday,pea ridge,Arkansas,72751,Carroll,23
+56059,Greg Pickens,193,6,2916217,Jesi Ripley,2021,2,11,Thursday,pea ridge,Arkansas,72751,Carroll,66
+56059,Greg Pickens,193,6,9327768,Base API User,2021,2,11,Thursday,pea ridge,Arkansas,72751,Carroll,80
+56059,Greg Pickens,193,6,6419170,Daniel Samuelson,2021,2,11,Thursday,pea ridge,Arkansas,72751,Carroll,21
+56059,Greg Pickens,193,6,6419170,Daniel Samuelson,2021,2,11,Thursday,pea ridge,Arkansas,72751,Carroll,3
+56059,Greg Pickens,193,6,6419170,Daniel Samuelson,2021,2,11,Thursday,pea ridge,Arkansas,72751,Carroll,21
+56060,Ragan Butler,230,6,,,2021,2,11,Thursday,,,,,66
+56060,Ragan Butler,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56061,Phillip  Jackson,230,6,,,2021,2,11,Thursday,,,,,66
+56061,Phillip  Jackson,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56062,Tess Devine,6,17,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56063,Lisa Walters,230,6,,,2021,2,11,Thursday,,,,,66
+56063,Lisa Walters,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56064,Sarah Lacy,230,6,,,2021,2,11,Thursday,Oklahoma City,Oklahoma,73162,OG&E,66
+56064,Sarah Lacy,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,Oklahoma City,Oklahoma,73162,OG&E,23
+56064,Sarah Lacy,230,6,8303669,Joseph Miller,2021,2,11,Thursday,Oklahoma City,Oklahoma,73162,OG&E,21
+56064,Sarah Lacy,230,6,8303669,Joseph Miller,2021,2,11,Thursday,Oklahoma City,Oklahoma,73162,OG&E,3
+56064,Sarah Lacy,230,6,8303669,Joseph Miller,2021,2,11,Thursday,Oklahoma City,Oklahoma,73162,OG&E,21
+56065,Andrew Tabor,230,6,,,2021,2,11,Thursday,Centerton,Arkansas,72719,Carroll,66
+56065,Andrew Tabor,230,6,1206784,Jacob Elkins,2021,2,11,Thursday,Centerton,Arkansas,72719,Carroll,23
+56065,Andrew Tabor,230,6,7496997,Alex Buis,2021,2,11,Thursday,Centerton,Arkansas,72719,Carroll,21
+56066,Brittany Back,214,17,3610377,William Paget,2021,2,11,Thursday,,,,,23
+56067,Christi West,230,6,,,2021,2,11,Thursday,,,,,66
+56067,Christi West,230,6,1206784,Jacob Elkins,2021,2,11,Thursday,,,,,23
+56067,Christi West,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,30
+56068,,146,34,3610377,William Paget,2021,2,11,Thursday,,,,,23
+56069,Chanda  Drake,174,6,,,2021,2,11,Thursday,,,,,66
+56069,Chanda  Drake,174,6,1206784,Jacob Elkins,2021,2,11,Thursday,,,,,23
+56069,Chanda  Drake,174,6,9745922,Ben Barker,2021,2,11,Thursday,,,,,21
+56070,,146,34,3610377,William Paget,2021,2,11,Thursday,,,,,23
+56071,Barbara Franks,230,6,,,2021,2,11,Thursday,,,,,66
+56071,Barbara Franks,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56073,"Will  Richards ",230,6,,,2021,2,11,Thursday,,,,,66
+56073,"Will  Richards ",230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56073,"Will  Richards ",230,6,6963874,Andrew Timms,2021,2,11,Thursday,,,,,21
+56074,Richard Sweet,172,6,,,2021,2,11,Thursday,,,,,66
+56074,Richard Sweet,172,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56074,Richard Sweet,172,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,30
+56075,Rebecca Devine,230,6,,,2021,2,11,Thursday,Harrison,Arkansas,72601,Entergy,66
+56075,Rebecca Devine,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,Harrison,Arkansas,72601,Entergy,23
+56075,Rebecca Devine,230,6,7496997,Alex Buis,2021,2,11,Thursday,Harrison,Arkansas,72601,Entergy,21
+56075,Rebecca Devine,230,6,7496997,Alex Buis,2021,2,11,Thursday,Harrison,Arkansas,72601,Entergy,3
+56075,Rebecca Devine,230,6,7496997,Alex Buis,2021,2,11,Thursday,Harrison,Arkansas,72601,Entergy,21
+56076,Robert Shade,230,6,,,2021,2,11,Thursday,,,,,66
+56076,Robert Shade,230,6,3610377,William Paget,2021,2,11,Thursday,,,,,23
+56077,Larry Salsman,230,6,,,2021,2,11,Thursday,,,,,66
+56077,Larry Salsman,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,21
+56077,Larry Salsman,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,34
+56078,Christina Wilkinson,230,6,,,2021,2,11,Thursday,Springfield,Missouri,65802,Ozark (MO),66
+56078,Christina Wilkinson,230,6,6009163,Lance Houghton,2021,2,11,Thursday,Springfield,Missouri,65802,Ozark (MO),21
+56078,Christina Wilkinson,230,6,6009163,Lance Houghton,2021,2,11,Thursday,Springfield,Missouri,65802,Ozark (MO),21
+56078,Christina Wilkinson,230,6,6009163,Lance Houghton,2021,2,11,Thursday,Springfield,Missouri,65802,Ozark (MO),3
+56079,Stephanie Dunning,214,17,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56079,Stephanie Dunning,214,17,3610377,William Paget,2021,2,11,Thursday,,,,,21
+56080,Adam Anderson,230,6,,,2021,2,11,Thursday,,,,,66
+56080,Adam Anderson,230,6,3610377,William Paget,2021,2,11,Thursday,,,,,53
+56082,"Beth Doppelt ",230,6,2916217,Jesi Ripley,2021,2,11,Thursday,Mannford,Oklahoma,74044,,23
+56082,"Beth Doppelt ",230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,Mannford,Oklahoma,74044,,21
+56083,Kim Woodson,174,6,,,2021,2,11,Thursday,Little Rock,Arkansas,72207,Entergy,66
+56083,Kim Woodson,174,6,3866415,Jacob Gilmore,2021,2,11,Thursday,Little Rock,Arkansas,72207,Entergy,21
+56083,Kim Woodson,174,6,3866415,Jacob Gilmore,2021,2,11,Thursday,Little Rock,Arkansas,72207,Entergy,3
+56083,Kim Woodson,174,6,3866415,Jacob Gilmore,2021,2,11,Thursday,Little Rock,Arkansas,72207,Entergy,21
+56084,Troy Glynn Sugg,230,6,,,2021,2,11,Thursday,,,,,66
+56084,Troy Glynn Sugg,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56084,Troy Glynn Sugg,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,30
+56085,Terry Lawson,174,6,,,2021,2,11,Thursday,Little Rock,Arkansas,72206,First Electric Coop,66
+56085,Terry Lawson,174,6,1206784,Jacob Elkins,2021,2,11,Thursday,Little Rock,Arkansas,72206,First Electric Coop,23
+56085,Terry Lawson,174,6,7496997,Alex Buis,2021,2,11,Thursday,Little Rock,Arkansas,72206,First Electric Coop,3
+56085,Terry Lawson,174,6,7496997,Alex Buis,2021,2,11,Thursday,Little Rock,Arkansas,72206,First Electric Coop,21
+56086,Jonathan Berrong,193,6,6419170,Daniel Samuelson,2021,2,11,Thursday,,,,,21
+56087,Grant Ellis,230,6,,,2021,2,11,Thursday,,,,,66
+56087,Grant Ellis,230,6,3610377,William Paget,2021,2,11,Thursday,,,,,23
+56088,Jessica Diamond,230,6,,,2021,2,11,Thursday,,Missouri,,City of Springfield,66
+56088,Jessica Diamond,230,6,3610377,William Paget,2021,2,11,Thursday,,Missouri,,City of Springfield,23
+56088,Jessica Diamond,230,6,1206784,Jacob Elkins,2021,2,11,Thursday,,Missouri,,City of Springfield,21
+56089,Timothy Smith,230,6,,,2021,2,11,Thursday,London,Arkansas,72847,Entergy,66
+56089,Timothy Smith,230,6,1206784,Jacob Elkins,2021,2,11,Thursday,London,Arkansas,72847,Entergy,23
+56089,Timothy Smith,230,6,6732050,Josh Hill,2021,2,11,Thursday,London,Arkansas,72847,Entergy,21
+56090,Kevin Gwaltney,38,17,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56090,Kevin Gwaltney,38,17,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,30
+56091,Scott Davis,214,17,3610377,William Paget,2021,2,11,Thursday,,,,,53
+56093,Marilyn  Boyce,146,34,5802076,Kenan McEwan,2021,2,11,Thursday,Broken Arrow,Oklahoma,74014,Public Services Company of Oklahoma,21
+56093,Marilyn  Boyce,146,34,5802076,Kenan McEwan,2021,2,11,Thursday,Broken Arrow,Oklahoma,74014,Public Services Company of Oklahoma,5
+56094,Deanna Walton,122,44,9873852,Ryan  Stocking,2021,2,11,Thursday,,,,,21
+56095,Zach Zink,230,6,,,2021,2,11,Thursday,,,,,66
+56095,Zach Zink,230,6,1206784,Jacob Elkins,2021,2,11,Thursday,,,,,23
+56096,Jerusha Funderburk,230,6,,,2021,2,11,Thursday,,,,,66
+56096,Jerusha Funderburk,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56097,Christopher Lewer,38,17,6732050,Josh Hill,2021,2,11,Thursday,,,,,39
+56097,Christopher Lewer,38,17,2218026,Veronica Crowfoot,2021,2,11,Thursday,,,,,21
+56099,James Benefiel,193,6,9745922,Ben Barker,2021,2,11,Thursday,Harrison,Arkansas,72601,Entergy,21
+56099,James Benefiel,193,6,9745922,Ben Barker,2021,2,11,Thursday,Harrison,Arkansas,72601,Entergy,3
+56099,James Benefiel,193,6,9745922,Ben Barker,2021,2,11,Thursday,Harrison,Arkansas,72601,Entergy,21
+56100,Kelsey Davis,172,6,,,2021,2,11,Thursday,Tulsa,Oklahoma,,,66
+56100,Kelsey Davis,172,6,5802076,Kenan McEwan,2021,2,11,Thursday,Tulsa,Oklahoma,,,23
+56100,Kelsey Davis,172,6,6732050,Josh Hill,2021,2,11,Thursday,Tulsa,Oklahoma,,,21
+56101,Brian Reeder,230,6,,,2021,2,11,Thursday,,,,,66
+56101,Brian Reeder,230,6,3563775,Joel Brock,2021,2,11,Thursday,,,,,23
+56101,Brian Reeder,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,5
+56101,Brian Reeder,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56101,Brian Reeder,230,6,1206784,Jacob Elkins,2021,2,11,Thursday,,,,,21
+56102,"Jose Rodriguez ",230,6,,,2021,2,11,Thursday,,,,,66
+56102,"Jose Rodriguez ",230,6,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,23
+56102,"Jose Rodriguez ",230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,21
+56103,Patrick Jimenez,230,6,,,2021,2,11,Thursday,,,,,66
+56103,Patrick Jimenez,230,6,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,23
+56103,Patrick Jimenez,230,6,3610377,William Paget,2021,2,11,Thursday,,,,,34
+56104,Gabrielle Curtis,230,6,,,2021,2,11,Thursday,,,,,66
+56104,Gabrielle Curtis,230,6,8086011,Garret Daniel,2021,2,11,Thursday,,,,,23
+56107,Eduard Baz,230,6,6282347,Andrew Porcelli,2021,2,11,Thursday,Nixa,Missouri,65714,White River,21
+56107,Eduard Baz,230,6,6282347,Andrew Porcelli,2021,2,11,Thursday,Nixa,Missouri,65714,White River,3
+56107,Eduard Baz,230,6,6282347,Andrew Porcelli,2021,2,11,Thursday,Nixa,Missouri,65714,White River,71
+56107,Eduard Baz,230,6,4473660,Heather Sederholm,2021,2,11,Thursday,Nixa,Missouri,65714,White River,18
+56108,Albert Maidt,230,6,,,2021,2,11,Thursday,,,,,66
+56108,Albert Maidt,230,6,8086011,Garret Daniel,2021,2,11,Thursday,,,,,23
+56108,Albert Maidt,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,21
+56108,Albert Maidt,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,58
+56109,Margaret  Clark,230,6,,,2021,2,11,Thursday,,,,,66
+56109,Margaret  Clark,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,21
+56109,Margaret  Clark,230,6,9873852,Ryan  Stocking,2021,2,11,Thursday,,,,,23
+56111,Mary Nordyke,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56113,Corey Gentry,181,16,5802076,Kenan McEwan,2021,2,11,Thursday,Bristow,Oklahoma,74010,Other,21
+56113,Corey Gentry,181,16,5802076,Kenan McEwan,2021,2,11,Thursday,Bristow,Oklahoma,74010,Other,21
+56113,Corey Gentry,181,16,5802076,Kenan McEwan,2021,2,11,Thursday,Bristow,Oklahoma,74010,Other,3
+56114,,146,34,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56115,G F,230,6,,,2021,2,11,Thursday,,,,,66
+56115,G F,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,53
+56117,Tim Geene,193,6,9745922,Ben Barker,2021,2,11,Thursday,,,,,21
+56118,Peyton Combs,230,6,,,2021,2,11,Thursday,,,,,66
+56118,Peyton Combs,230,6,8086011,Garret Daniel,2021,2,11,Thursday,,,,,23
+56119,Clair Cleveland,230,6,,,2021,2,11,Thursday,,,,,66
+56119,Clair Cleveland,230,6,3563775,Joel Brock,2021,2,11,Thursday,,,,,23
+56120,Mark Mark,230,6,,,2021,2,11,Thursday,,,,,66
+56120,Mark Mark,230,6,8086011,Garret Daniel,2021,2,11,Thursday,,,,,23
+56121,"Hank Hoyle ",193,6,,,2021,2,11,Thursday,,,,,66
+56121,"Hank Hoyle ",193,6,9327768,Base API User,2021,2,11,Thursday,,,,,80
+56121,"Hank Hoyle ",193,6,3563775,Joel Brock,2021,2,11,Thursday,,,,,30
+56121,"Hank Hoyle ",193,6,3563775,Joel Brock,2021,2,11,Thursday,,,,,23
+56121,"Hank Hoyle ",193,6,3563775,Joel Brock,2021,2,11,Thursday,,,,,30
+56122,Jeff Hilliard,230,6,,,2021,2,11,Thursday,,,,,66
+56122,Jeff Hilliard,230,6,7496997,Alex Buis,2021,2,11,Thursday,,,,,23
+56123,Matthew Singer,230,6,,,2021,2,11,Thursday,,,,,66
+56123,Matthew Singer,230,6,7496997,Alex Buis,2021,2,11,Thursday,,,,,23
+56124,Nicholas Hein,230,6,,,2021,2,11,Thursday,,,,,66
+56124,Nicholas Hein,230,6,5802076,Kenan McEwan,2021,2,11,Thursday,,,,,21
+56125,Jesse Lim,230,6,,,2021,2,11,Thursday,,,,,66
+56125,Jesse Lim,230,6,5802076,Kenan McEwan,2021,2,11,Thursday,,,,,23
+56127,"Matt ",15,38,6009163,Lance Houghton,2021,2,11,Thursday,,,,,21
+56128,"John  Fast ",193,6,,,2021,2,11,Thursday,,,,,66
+56128,"John  Fast ",193,6,8086011,Garret Daniel,2021,2,11,Thursday,,,,,23
+56128,"John  Fast ",193,6,8086011,Garret Daniel,2021,2,11,Thursday,,,,,66
+56128,"John  Fast ",193,6,9327768,Base API User,2021,2,11,Thursday,,,,,80
+56128,"John  Fast ",193,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,58
+56129,Aaron Utley,193,6,3220110,Tad Davis,2021,2,11,Thursday,Conway,Arkansas,72034,Other Electric Company,21
+56129,Aaron Utley,193,6,3220110,Tad Davis,2021,2,11,Thursday,Conway,Arkansas,72034,Other Electric Company,3
+56130,"Kristina  Lowrimore ",230,6,,,2021,2,11,Thursday,,,,,66
+56130,"Kristina  Lowrimore ",230,6,5802076,Kenan McEwan,2021,2,11,Thursday,,,,,53
+56131,Rodolfo Turrubiarees,15,38,8462830,Hector Cruz,2021,2,11,Thursday,"Springdale ",Arkansas,72764,,21
+56132,Brittany parks,214,17,9873852,Ryan  Stocking,2021,2,11,Thursday,,,,,53
+56133,Neal Dodson,230,6,,,2021,2,11,Thursday,,,,,66
+56133,Neal Dodson,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,21
+56134,Liz Schmidt,230,6,,,2021,2,11,Thursday,,,,,66
+56134,Liz Schmidt,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,21
+56135,Victor Criddle,5,16,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,23
+56136,Jacob Dy,230,6,,,2021,2,11,Thursday,,,,,66
+56136,Jacob Dy,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,30
+56136,Jacob Dy,230,6,3866415,Jacob Gilmore,2021,2,11,Thursday,,,,,34
+56137,Randy Hensley,230,6,,,2021,2,11,Thursday,Oark,Arkansas,72852,Ozarks Arkansas,66
+56137,Randy Hensley,230,6,9745922,Ben Barker,2021,2,11,Thursday,Oark,Arkansas,72852,Ozarks Arkansas,21
+56137,Randy Hensley,230,6,9745922,Ben Barker,2021,2,11,Thursday,Oark,Arkansas,72852,Ozarks Arkansas,21
+56137,Randy Hensley,230,6,9745922,Ben Barker,2021,2,11,Thursday,Oark,Arkansas,72852,Ozarks Arkansas,3
+56139,Jeff and Jennifer Necessary,15,38,3326583,Jacob Poppenger,2021,2,11,Thursday,Bentonville,Arkansas,72718,Bentonville,21
+56140,James Lowery,230,6,,,2021,2,11,Thursday,,,,,66
+56140,James Lowery,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56140,James Lowery,230,6,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,66
+56140,James Lowery,230,6,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,23
+56141,Lee Welker,27,36,9873852,Ryan  Stocking,2021,2,11,Thursday,Goodson,Missouri,65663,Southwest Electric,21
+56141,Lee Welker,27,36,9873852,Ryan  Stocking,2021,2,11,Thursday,Goodson,Missouri,65663,Southwest Electric,21
+56141,Lee Welker,27,36,9873852,Ryan  Stocking,2021,2,11,Thursday,Goodson,Missouri,65663,Southwest Electric,3
+56141,Lee Welker,27,36,9873852,Ryan  Stocking,2021,2,11,Thursday,Goodson,Missouri,65663,Southwest Electric,21
+56142,Andrew Eubanks,214,17,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56142,Andrew Eubanks,214,17,4050359,Matt Pickett,2021,2,11,Thursday,,,,,39
+56143,Michael Koger,230,6,,,2021,2,11,Thursday,,,,Other,66
+56143,Michael Koger,230,6,3610377,William Paget,2021,2,11,Thursday,,,,Other,23
+56143,Michael Koger,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,Other,21
+56145,David  Stallings III,230,6,,,2021,2,11,Thursday,Fort Smith,Arkansas,72901,OGE,66
+56145,David  Stallings III,230,6,5136817,Zach Marchbank,2021,2,11,Thursday,Fort Smith,Arkansas,72901,OGE,23
+56145,David  Stallings III,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Fort Smith,Arkansas,72901,OGE,21
+56145,David  Stallings III,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Fort Smith,Arkansas,72901,OGE,3
+56146,Gary Cate,230,6,,,2021,2,11,Thursday,,,,,66
+56146,Gary Cate,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56147,Michael Cain,230,6,,,2021,2,11,Thursday,Russellville,Arkansas,72802,Entergy,66
+56147,Michael Cain,230,6,9873852,Ryan  Stocking,2021,2,11,Thursday,Russellville,Arkansas,72802,Entergy,23
+56147,Michael Cain,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,Russellville,Arkansas,72802,Entergy,21
+56147,Michael Cain,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,Russellville,Arkansas,72802,Entergy,3
+56147,Michael Cain,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,Russellville,Arkansas,72802,Entergy,21
+56148,Jerry Starkey,143,17,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56148,Jerry Starkey,143,17,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,53
+56149,,146,34,5802076,Kenan McEwan,2021,2,11,Thursday,,,,,23
+56150,,146,34,,,2021,2,11,Thursday,,,,,23
+56151,Robert Clowers,230,6,,,2021,2,11,Thursday,little rock,Arkansas,72210,Entergy,66
+56151,Robert Clowers,230,6,6732050,Josh Hill,2021,2,11,Thursday,little rock,Arkansas,72210,Entergy,23
+56151,Robert Clowers,230,6,5421394,James Bernard,2021,2,11,Thursday,little rock,Arkansas,72210,Entergy,21
+56151,Robert Clowers,230,6,5421394,James Bernard,2021,2,11,Thursday,little rock,Arkansas,72210,Entergy,21
+56151,Robert Clowers,230,6,5421394,James Bernard,2021,2,11,Thursday,little rock,Arkansas,72210,Entergy,3
+56152,Karen  Mabe,146,34,6732050,Josh Hill,2021,2,11,Thursday,Tulsa,Oklahoma,74130,Public Services Company of Oklahoma,23
+56152,Karen  Mabe,146,34,9745922,Ben Barker,2021,2,11,Thursday,Tulsa,Oklahoma,74130,Public Services Company of Oklahoma,21
+56155,Michael Morris,230,6,,,2021,2,11,Thursday,Ardmore,Oklahoma,73401,OGE,66
+56155,Michael Morris,230,6,6732050,Josh Hill,2021,2,11,Thursday,Ardmore,Oklahoma,73401,OGE,23
+56155,Michael Morris,230,6,6732050,Josh Hill,2021,2,11,Thursday,Ardmore,Oklahoma,73401,OGE,66
+56155,Michael Morris,230,6,5802076,Kenan McEwan,2021,2,11,Thursday,Ardmore,Oklahoma,73401,OGE,23
+56155,Michael Morris,230,6,8086011,Garret Daniel,2021,2,11,Thursday,Ardmore,Oklahoma,73401,OGE,3
+56155,Michael Morris,230,6,8086011,Garret Daniel,2021,2,11,Thursday,Ardmore,Oklahoma,73401,OGE,21
+56156,Bryce Lockwood,230,6,,,2021,2,11,Thursday,,,,,66
+56156,Bryce Lockwood,230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,23
+56157,Mic Mic,230,6,,,2021,2,11,Thursday,,,,,66
+56157,Mic Mic,230,6,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,23
+56157,Mic Mic,230,6,8303669,Joseph Miller,2021,2,11,Thursday,,,,,53
+56158,Jeff Underwood,230,6,,,2021,2,11,Thursday,,,,,66
+56158,Jeff Underwood,230,6,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,23
+56158,Jeff Underwood,230,6,9873852,Ryan  Stocking,2021,2,11,Thursday,,,,,21
+56159,,146,34,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,23
+56160,Taylor  Paxton,230,6,,,2021,2,11,Thursday,lamar,Arkansas,72846,OGE,66
+56160,Taylor  Paxton,230,6,5136817,Zach Marchbank,2021,2,11,Thursday,lamar,Arkansas,72846,OGE,23
+56160,Taylor  Paxton,230,6,7496997,Alex Buis,2021,2,11,Thursday,lamar,Arkansas,72846,OGE,21
+56160,Taylor  Paxton,230,6,7496997,Alex Buis,2021,2,11,Thursday,lamar,Arkansas,72846,OGE,3
+56161,,181,16,5136817,Zach Marchbank,2021,2,11,Thursday,,,,,23
+56162,,146,34,9873852,Ryan  Stocking,2021,2,11,Thursday,,,,,23
+56163,Kendra Wilkins,230,6,,,2021,2,11,Thursday,,,,,66
+56163,Kendra Wilkins,230,6,8303669,Joseph Miller,2021,2,11,Thursday,,,,,5
+56164,Brandon  Haffner,230,6,,,2021,2,11,Thursday,,,,,66
+56164,Brandon  Haffner,230,6,8303669,Joseph Miller,2021,2,11,Thursday,,,,,23
+56165,Kylee Aldridge,230,6,,,2021,2,11,Thursday,,,,,66
+56165,Kylee Aldridge,230,6,5802076,Kenan McEwan,2021,2,11,Thursday,,,,,21
+56166,Ron Connery,12,14,2711226,Sam Danehower,2021,2,11,Thursday,Tecumseh,,,,21
+56167,,146,34,5802076,Kenan McEwan,2021,2,11,Thursday,,,,,23
+56168,,146,34,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56169,Ken Mills,214,17,8303669,Joseph Miller,2021,2,11,Thursday,,,,Entergy,23
+56169,Ken Mills,214,17,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,Entergy,31
+56170,,146,34,5421394,James Bernard,2021,2,11,Thursday,,,,,23
+56171,Allen Sandmeier,214,17,8303669,Joseph Miller,2021,2,11,Thursday,,,,,23
+56171,Allen Sandmeier,214,17,8303669,Joseph Miller,2021,2,11,Thursday,,,,,21
+56171,Allen Sandmeier,214,17,8303669,Joseph Miller,2021,2,11,Thursday,,,,,5
+56173,Nathan Henry,193,6,2711226,Sam Danehower,2021,2,11,Thursday,,,,,21
+56174,Sashi Prasad,15,38,3326583,Jacob Poppenger,2021,2,11,Thursday,,,,,21
+56176,William Francis,193,6,,,2021,2,11,Thursday,Benton,Arkansas,72019,First Electric Coop,66
+56176,William Francis,193,6,8303669,Joseph Miller,2021,2,11,Thursday,Benton,Arkansas,72019,First Electric Coop,23
+56176,William Francis,193,6,8303669,Joseph Miller,2021,2,11,Thursday,Benton,Arkansas,72019,First Electric Coop,66
+56176,William Francis,193,6,9327768,Base API User,2021,2,11,Thursday,Benton,Arkansas,72019,First Electric Coop,80
+56176,William Francis,193,6,3220110,Tad Davis,2021,2,11,Thursday,Benton,Arkansas,72019,First Electric Coop,21
+56176,William Francis,193,6,3220110,Tad Davis,2021,2,11,Thursday,Benton,Arkansas,72019,First Electric Coop,3
+56177,Anna Squire,193,6,2711226,Sam Danehower,2021,2,11,Thursday,,,,,21
+56178,Klayton Babin,230,6,,,2021,2,11,Thursday,,,,,66
+56178,Klayton Babin,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,23
+56178,Klayton Babin,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,66
+56178,Klayton Babin,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,23
+56178,Klayton Babin,230,6,7496997,Alex Buis,2021,2,11,Thursday,,,,,21
+56179,Janice Fromm,172,6,,,2021,2,11,Thursday,Miami,Oklahoma,74354,Other,66
+56179,Janice Fromm,172,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Miami,Oklahoma,74354,Other,23
+56179,Janice Fromm,172,6,5802076,Kenan McEwan,2021,2,11,Thursday,Miami,Oklahoma,74354,Other,21
+56179,Janice Fromm,172,6,5802076,Kenan McEwan,2021,2,11,Thursday,Miami,Oklahoma,74354,Other,3
+56180,Jamie and Jerry Leatherman,230,6,,,2021,2,11,Thursday,fort smith,Arkansas,72901,OGE,66
+56180,Jamie and Jerry Leatherman,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,fort smith,Arkansas,72901,OGE,23
+56180,Jamie and Jerry Leatherman,230,6,5421394,James Bernard,2021,2,11,Thursday,fort smith,Arkansas,72901,OGE,21
+56180,Jamie and Jerry Leatherman,230,6,5421394,James Bernard,2021,2,11,Thursday,fort smith,Arkansas,72901,OGE,21
+56180,Jamie and Jerry Leatherman,230,6,5421394,James Bernard,2021,2,11,Thursday,fort smith,Arkansas,72901,OGE,3
+56182,"Britton  Gilreath ",72,17,3610377,William Paget,2021,2,11,Thursday,,,,,23
+56185,ROBERT A PURDY,230,6,,,2021,2,11,Thursday,,,,,66
+56185,ROBERT A PURDY,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,23
+56186,ROBERT A PURDY,193,6,2711226,Sam Danehower,2021,2,11,Thursday,Lawton,Oklahoma,73507,Other,21
+56187,"Rawer Face ",230,6,,,2021,2,11,Thursday,,,,,66
+56187,"Rawer Face ",230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,23
+56187,"Rawer Face ",230,6,6732050,Josh Hill,2021,2,11,Thursday,,,,,53
+56188,Michael Kaiser,235,6,9745922,Ben Barker,2021,2,11,Thursday,Little Rock,Arkansas,72206,Entergy,21
+56188,Michael Kaiser,235,6,9745922,Ben Barker,2021,2,11,Thursday,Little Rock,Arkansas,72206,Entergy,3
+56188,Michael Kaiser,235,6,9745922,Ben Barker,2021,2,11,Thursday,Little Rock,Arkansas,72206,Entergy,21
+56189,Brian Kenney,143,17,,,2021,2,11,Thursday,,,,,66
+56189,Brian Kenney,143,17,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,23
+56190,Allen Still,230,6,,,2021,2,11,Thursday,,,,,66
+56190,Allen Still,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,21
+56191,Marcia Moore,230,6,,,2021,2,11,Thursday,Edmond,Oklahoma,7301,Other Electric Company,66
+56191,Marcia Moore,230,6,3610377,William Paget,2021,2,11,Thursday,Edmond,Oklahoma,7301,Other Electric Company,21
+56191,Marcia Moore,230,6,3610377,William Paget,2021,2,11,Thursday,Edmond,Oklahoma,7301,Other Electric Company,3
+56192,Tyler  Wiy,29,17,3610377,William Paget,2021,2,11,Thursday,,,,,53
+56193,Zach Simmons,230,6,,,2021,2,11,Thursday,,,,,66
+56193,Zach Simmons,230,6,3610377,William Paget,2021,2,11,Thursday,,,,,23
+56193,Zach Simmons,230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,21
+56196,Tiffany Watson,29,17,,,2021,2,11,Thursday,,,,,66
+56196,Tiffany Watson,29,17,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56197,"Andy Huckins ",230,6,,,2021,2,11,Thursday,,,,,66
+56197,"Andy Huckins ",230,6,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56198,Danny Overton,193,6,,,2021,2,11,Thursday,,,,,66
+56198,Danny Overton,193,6,9327768,Base API User,2021,2,11,Thursday,,,,,80
+56199,Samantha  Estes,230,6,,,2021,2,11,Thursday,,,,,66
+56199,Samantha  Estes,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,21
+56200,Jay Horne,214,17,2916217,Jesi Ripley,2021,2,11,Thursday,,,,,23
+56200,Jay Horne,214,17,7496997,Alex Buis,2021,2,11,Thursday,,,,,21
+56201,"Joe Pemberton ",230,6,,,2021,2,11,Thursday,Cave Springs,Arkansas,72718,SWEPCO,66
+56201,"Joe Pemberton ",230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Cave Springs,Arkansas,72718,SWEPCO,23
+56201,"Joe Pemberton ",230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Cave Springs,Arkansas,72718,SWEPCO,3
+56202,Louie Schuette,193,6,,,2021,2,11,Thursday,,,,,66
+56202,Louie Schuette,193,6,9327768,Base API User,2021,2,11,Thursday,,,,,80
+56202,Louie Schuette,193,6,2711226,Sam Danehower,2021,2,11,Thursday,,,,,21
+56203,Tj Sefcik,230,6,,,2021,2,11,Thursday,Little Rock,Arkansas,72223,Entergy,66
+56203,Tj Sefcik,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Little Rock,Arkansas,72223,Entergy,23
+56203,Tj Sefcik,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,Little Rock,Arkansas,72223,Entergy,21
+56204,Terrance Alletto,230,6,,,2021,2,11,Thursday,,,,,66
+56204,Terrance Alletto,230,6,9593081,Jimmy Ballard,2021,2,11,Thursday,,,,,23
+56204,Terrance Alletto,230,6,3610377,William Paget,2021,2,11,Thursday,,,,,30
+56205,Brandon Wilson,230,6,,,2021,2,11,Thursday,,,,,66
+56205,Brandon Wilson,230,6,3610377,William Paget,2021,2,11,Thursday,,,,,23
+56207,Mr. Boyle,230,6,,,2021,2,12,Friday,,,,,66
+56207,Mr. Boyle,230,6,9593081,Jimmy Ballard,2021,2,12,Friday,,,,,53
+56209,Martin Morado,230,6,2916217,Jesi Ripley,2021,2,12,Friday,,,,,23
+56210,Brad Montgomery,230,6,,,2021,2,12,Friday,,,,,66
+56210,Brad Montgomery,230,6,9593081,Jimmy Ballard,2021,2,12,Friday,,,,,23
+56210,Brad Montgomery,230,6,8303669,Joseph Miller,2021,2,12,Friday,,,,,21
+56211,,146,34,2916217,Jesi Ripley,2021,2,12,Friday,,,,,23
+56211,,146,34,5136817,Zach Marchbank,2021,2,12,Friday,,,,,5
+56212,Nathan Spears,230,6,,,2021,2,12,Friday,,,,,66
+56212,Nathan Spears,230,6,3610377,William Paget,2021,2,12,Friday,,,,,23
+56213,"Brent  Smith ",230,6,,,2021,2,12,Friday,Harrison,Arkansas,72601,Carroll,66
+56213,"Brent  Smith ",230,6,6732050,Josh Hill,2021,2,12,Friday,Harrison,Arkansas,72601,Carroll,21
+56213,"Brent  Smith ",230,6,6732050,Josh Hill,2021,2,12,Friday,Harrison,Arkansas,72601,Carroll,3
+56213,"Brent  Smith ",230,6,6732050,Josh Hill,2021,2,12,Friday,Harrison,Arkansas,72601,Carroll,58
+56214,Gary Brewer,230,6,,,2021,2,12,Friday,,,,,66
+56214,Gary Brewer,230,6,2916217,Jesi Ripley,2021,2,12,Friday,,,,,23
+56215,Jim Williams,230,6,,,2021,2,12,Friday,,,,,66
+56215,Jim Williams,230,6,2916217,Jesi Ripley,2021,2,12,Friday,,,,,23
+56216,Jason Muncy,230,6,,,2021,2,12,Friday,,,,,66
+56216,Jason Muncy,230,6,2916217,Jesi Ripley,2021,2,12,Friday,,,,,23
+56217,John Crabtree,230,6,,,2021,2,12,Friday,,,,,66
+56217,John Crabtree,230,6,6732050,Josh Hill,2021,2,12,Friday,,,,,23
+56217,John Crabtree,230,6,6732050,Josh Hill,2021,2,12,Friday,,,,,21
+56218,John Sheets,214,17,2916217,Jesi Ripley,2021,2,12,Friday,,,,,23
+56219,Preston McWhirter,230,6,,,2021,2,12,Friday,Bella Vista,Arkansas,72714,Carroll,66
+56219,Preston McWhirter,230,6,6732050,Josh Hill,2021,2,12,Friday,Bella Vista,Arkansas,72714,Carroll,23
+56219,Preston McWhirter,230,6,3563775,Joel Brock,2021,2,12,Friday,Bella Vista,Arkansas,72714,Carroll,21
+56219,Preston McWhirter,230,6,3563775,Joel Brock,2021,2,12,Friday,Bella Vista,Arkansas,72714,Carroll,3
+56219,Preston McWhirter,230,6,3563775,Joel Brock,2021,2,12,Friday,Bella Vista,Arkansas,72714,Carroll,21
+56219,Preston McWhirter,230,6,3563775,Joel Brock,2021,2,12,Friday,Bella Vista,Arkansas,72714,Carroll,63
+56220,Samuel Wyatt,230,6,,,2021,2,12,Friday,,,,,66
+56220,Samuel Wyatt,230,6,3563775,Joel Brock,2021,2,12,Friday,,,,,23
+56220,Samuel Wyatt,230,6,5421394,James Bernard,2021,2,12,Friday,,,,,21
+56221,Taylor Davis,230,6,,,2021,2,12,Friday,,,,,66
+56221,Taylor Davis,230,6,6732050,Josh Hill,2021,2,12,Friday,,,,,23
+56221,Taylor Davis,230,6,3610377,William Paget,2021,2,12,Friday,,,,,21
+56223,Nathan Slavens,230,6,,,2021,2,12,Friday,,,,,66
+56223,Nathan Slavens,230,6,2916217,Jesi Ripley,2021,2,12,Friday,,,,,21
+56224,Robyn Riggs,230,6,,,2021,2,12,Friday,,,,,66
+56224,Robyn Riggs,230,6,2916217,Jesi Ripley,2021,2,12,Friday,,,,,23
+56224,Robyn Riggs,230,6,3610377,William Paget,2021,2,12,Friday,,,,,31
+56225,Amanda McWhirt,214,17,2916217,Jesi Ripley,2021,2,12,Friday,,,,,23
+56226,Peggy Phillips,230,6,,,2021,2,12,Friday,bella vista,Arkansas,72715,Carroll,66
+56226,Peggy Phillips,230,6,3610377,William Paget,2021,2,12,Friday,bella vista,Arkansas,72715,Carroll,23
+56226,Peggy Phillips,230,6,9593081,Jimmy Ballard,2021,2,12,Friday,bella vista,Arkansas,72715,Carroll,21
+56226,Peggy Phillips,230,6,5421394,James Bernard,2021,2,12,Friday,bella vista,Arkansas,72715,Carroll,21
+56226,Peggy Phillips,230,6,5421394,James Bernard,2021,2,12,Friday,bella vista,Arkansas,72715,Carroll,3
+56227,,146,34,5136817,Zach Marchbank,2021,2,12,Friday,,,,,23
+56229,Paul and Lind Hancock,80,16,9593081,Jimmy Ballard,2021,2,12,Friday,Holden,Missouri,64040,Other,3
+56229,Paul and Lind Hancock,80,16,9593081,Jimmy Ballard,2021,2,12,Friday,Holden,Missouri,64040,Other,21
+56230,Eddie Farris,230,6,,,2021,2,12,Friday,Sapulpa,Oklahoma,74066,Public Services Company of Oklahoma,66
+56230,Eddie Farris,230,6,5802076,Kenan McEwan,2021,2,12,Friday,Sapulpa,Oklahoma,74066,Public Services Company of Oklahoma,21
+56230,Eddie Farris,230,6,5802076,Kenan McEwan,2021,2,12,Friday,Sapulpa,Oklahoma,74066,Public Services Company of Oklahoma,21
+56230,Eddie Farris,230,6,5802076,Kenan McEwan,2021,2,12,Friday,Sapulpa,Oklahoma,74066,Public Services Company of Oklahoma,21
+56230,Eddie Farris,230,6,5802076,Kenan McEwan,2021,2,12,Friday,Sapulpa,Oklahoma,74066,Public Services Company of Oklahoma,3
+56231,Jacquelyn Holmes,230,6,,,2021,2,12,Friday,,,,,66
+56231,Jacquelyn Holmes,230,6,3610377,William Paget,2021,2,12,Friday,,,,,23
+56233,Christina Mason,193,6,6419170,Daniel Samuelson,2021,2,12,Friday,,,,,21
+56234,NancyJane Ikley,230,6,,,2021,2,12,Friday,,,,,66
+56234,NancyJane Ikley,230,6,8303669,Joseph Miller,2021,2,12,Friday,,,,,23
+56235,Kimberly Smith,230,6,,,2021,2,12,Friday,,,,,66
+56235,Kimberly Smith,230,6,2916217,Jesi Ripley,2021,2,12,Friday,,,,,23
+56236,,146,34,8303669,Joseph Miller,2021,2,12,Friday,,,,,23
+56237,Ed Edwards,230,6,,,2021,2,12,Friday,,,,,66
+56237,Ed Edwards,230,6,5136817,Zach Marchbank,2021,2,12,Friday,,,,,23
+56237,Ed Edwards,230,6,3188911,Alan Spann,2021,2,12,Friday,,,,,53
+56238,James Arthur,230,6,,,2021,2,12,Friday,,,,,66
+56238,James Arthur,230,6,5421394,James Bernard,2021,2,12,Friday,,,,,23
+56239,Jennifer Johnson,230,6,,,2021,2,12,Friday,,,,,66
+56239,Jennifer Johnson,230,6,3188911,Alan Spann,2021,2,12,Friday,,,,,53
+56239,Jennifer Johnson,230,6,3188911,Alan Spann,2021,2,12,Friday,,,,,66
+56239,Jennifer Johnson,230,6,5136817,Zach Marchbank,2021,2,12,Friday,,,,,23
+56240,Dave  Trudo,16,43,2087434,Amanda Lanham,2021,2,12,Friday,"Bentonville ",Arkansas,72712,,5
+56241,Mike Orthman,230,6,,,2021,2,12,Friday,,,,,66
+56241,Mike Orthman,230,6,3188911,Alan Spann,2021,2,12,Friday,,,,,23
+56242,Dc neufeld,230,6,,,2021,2,12,Friday,,,,,66
+56242,Dc neufeld,230,6,3610377,William Paget,2021,2,12,Friday,,,,,30
+56243,"Mayra  Godoy ",230,6,,,2021,2,12,Friday,,,,,66
+56243,"Mayra  Godoy ",230,6,9873852,Ryan  Stocking,2021,2,12,Friday,,,,,23
+56244,Chantry Dees,5,16,3188911,Alan Spann,2021,2,12,Friday,Edmond,Oklahoma,73013,OGE,21
+56244,Chantry Dees,5,16,3188911,Alan Spann,2021,2,12,Friday,Edmond,Oklahoma,73013,OGE,21
+56244,Chantry Dees,5,16,3188911,Alan Spann,2021,2,12,Friday,Edmond,Oklahoma,73013,OGE,3
+56244,Chantry Dees,5,16,3188911,Alan Spann,2021,2,12,Friday,Edmond,Oklahoma,73013,OGE,21
+56245,Chris McCully,230,6,,,2021,2,12,Friday,,,,,66
+56245,Chris McCully,230,6,3610377,William Paget,2021,2,12,Friday,,,,,23
+56245,Chris McCully,230,6,6009163,Lance Houghton,2021,2,12,Friday,,,,,21
+56245,Chris McCully,230,6,9873852,Ryan  Stocking,2021,2,12,Friday,,,,,23
+56245,Chris McCully,230,6,6009163,Lance Houghton,2021,2,12,Friday,,,,,21
+56246,Robert Mullins,230,6,,,2021,2,12,Friday,,,,,66
+56246,Robert Mullins,230,6,8303669,Joseph Miller,2021,2,12,Friday,,,,,23
+56246,Robert Mullins,230,6,9873852,Ryan  Stocking,2021,2,12,Friday,,,,,21
+56247,Nathan Maxwell,230,6,,,2021,2,12,Friday,Gentry,Arkansas,72734,Carroll,66
+56247,Nathan Maxwell,230,6,8303669,Joseph Miller,2021,2,12,Friday,Gentry,Arkansas,72734,Carroll,23
+56247,Nathan Maxwell,230,6,8303669,Joseph Miller,2021,2,12,Friday,Gentry,Arkansas,72734,Carroll,21
+56247,Nathan Maxwell,230,6,8303669,Joseph Miller,2021,2,12,Friday,Gentry,Arkansas,72734,Carroll,3
+56248,Christopher Benya,230,6,,,2021,2,12,Friday,,,,,66
+56248,Christopher Benya,230,6,9873852,Ryan  Stocking,2021,2,12,Friday,,,,,23
+56248,Christopher Benya,230,6,3866415,Jacob Gilmore,2021,2,12,Friday,,,,,30
+56249,Jane Anne Schulte,193,6,,,2021,2,12,Friday,,,,,66
+56249,Jane Anne Schulte,193,6,9873852,Ryan  Stocking,2021,2,12,Friday,,,,,23
+56249,Jane Anne Schulte,193,6,9873852,Ryan  Stocking,2021,2,12,Friday,,,,,66
+56249,Jane Anne Schulte,193,6,9327768,Base API User,2021,2,12,Friday,,,,,80
+56249,Jane Anne Schulte,193,6,1368598,Gideon Reynolds,2021,2,12,Friday,,,,,21
+56250,Viktor Stgo,230,6,,,2021,2,12,Friday,,,,,66
+56250,Viktor Stgo,230,6,3866415,Jacob Gilmore,2021,2,12,Friday,,,,,23
+56251,Peggy Pianalto,230,6,,,2021,2,12,Friday,,,,,66
+56251,Peggy Pianalto,230,6,3610377,William Paget,2021,2,12,Friday,,,,,23
+56251,Peggy Pianalto,230,6,8303669,Joseph Miller,2021,2,12,Friday,,,,,21
+56252,Robert McLemore,230,6,,,2021,2,12,Friday,,,,,66
+56252,Robert McLemore,230,6,3866415,Jacob Gilmore,2021,2,12,Friday,,,,,23
+56254,Mike Russell,235,6,,,2021,2,12,Friday,sherwood,Arkansas,72120,Other,66
+56254,Mike Russell,235,6,9327768,Base API User,2021,2,12,Friday,sherwood,Arkansas,72120,Other,80
+56254,Mike Russell,235,6,6419170,Daniel Samuelson,2021,2,12,Friday,sherwood,Arkansas,72120,Other,21
+56254,Mike Russell,235,6,6419170,Daniel Samuelson,2021,2,12,Friday,sherwood,Arkansas,72120,Other,3
+56255,Gregory Pershall,230,6,,,2021,2,12,Friday,Oklahoma City,Oklahoma,73165,OGE,66
+56255,Gregory Pershall,230,6,3610377,William Paget,2021,2,12,Friday,Oklahoma City,Oklahoma,73165,OGE,23
+56255,Gregory Pershall,230,6,5136817,Zach Marchbank,2021,2,12,Friday,Oklahoma City,Oklahoma,73165,OGE,21
+56255,Gregory Pershall,230,6,5136817,Zach Marchbank,2021,2,12,Friday,Oklahoma City,Oklahoma,73165,OGE,3
+56256,Joseph Cuce,230,6,,,2021,2,12,Friday,,,,,66
+56256,Joseph Cuce,230,6,1206784,Jacob Elkins,2021,2,12,Friday,,,,,23
+56257,Justin Upchurch,5,16,1206784,Jacob Elkins,2021,2,12,Friday,,,,,23
+56258,Nick Anderson,15,38,3220110,Tad Davis,2021,2,12,Friday,Winslow,Arkansas,72959,Ozarks Arkansas,21
+56259,Clay Ross,230,6,,,2021,2,12,Friday,,,,,66
+56259,Clay Ross,230,6,6732050,Josh Hill,2021,2,12,Friday,,,,,23
+56259,Clay Ross,230,6,9593081,Jimmy Ballard,2021,2,12,Friday,,,,,53
+56260,George Hanson,214,17,2711226,Sam Danehower,2021,2,12,Friday,,,,Other Electric Company,21
+56261,Wes Ryan,230,6,,,2021,2,12,Friday,,,,,66
+56261,Wes Ryan,230,6,9745922,Ben Barker,2021,2,12,Friday,,,,,23
+56262,"Ed Garrison ",6,17,6732050,Josh Hill,2021,2,12,Friday,Greenbrier,Arkansas,,Entergy,21
+56263,Kevin Williams,230,6,,,2021,2,12,Friday,"Bentonville ",Arkansas,72713,Bentonville,66
+56263,Kevin Williams,230,6,8086011,Garret Daniel,2021,2,12,Friday,"Bentonville ",Arkansas,72713,Bentonville,23
+56263,Kevin Williams,230,6,8086011,Garret Daniel,2021,2,12,Friday,"Bentonville ",Arkansas,72713,Bentonville,21
+56263,Kevin Williams,230,6,8086011,Garret Daniel,2021,2,12,Friday,"Bentonville ",Arkansas,72713,Bentonville,3
+56264,,12,14,8086011,Garret Daniel,2021,2,12,Friday,,,,,53
+56265,Donald Frasher,193,6,3220110,Tad Davis,2021,2,12,Friday,Fayetteville,Arkansas,72701,Ozarks Arkansas,21
+56265,Donald Frasher,193,6,3220110,Tad Davis,2021,2,12,Friday,Fayetteville,Arkansas,72701,Ozarks Arkansas,3
+56266,,181,16,5802076,Kenan McEwan,2021,2,12,Friday,,,,,23
+56267,Sean McKean,230,6,,,2021,2,12,Friday,,,,,66
+56267,Sean McKean,230,6,5136817,Zach Marchbank,2021,2,12,Friday,,,,,23
+56268,Amanda Sanchez,193,6,6419170,Daniel Samuelson,2021,2,12,Friday,lawton,Oklahoma,73507,Other,21
+56268,Amanda Sanchez,193,6,6419170,Daniel Samuelson,2021,2,12,Friday,lawton,Oklahoma,73507,Other,3
+56269,Michael Thomas,214,17,8303669,Joseph Miller,2021,2,12,Friday,,,,,23
+56270,,181,16,8303669,Joseph Miller,2021,2,12,Friday,,,,,23
+56271,Joe Thomas,230,6,,,2021,2,12,Friday,,,,,66
+56271,Joe Thomas,230,6,5802076,Kenan McEwan,2021,2,12,Friday,,,,,34
+56271,Joe Thomas,230,6,5802076,Kenan McEwan,2021,2,12,Friday,,,,,53
+56272,Brett Miller,230,6,,,2021,2,12,Friday,,,,,66
+56272,Brett Miller,230,6,5421394,James Bernard,2021,2,12,Friday,,,,,23
+56273,Kennon Noble,146,34,3866415,Jacob Gilmore,2021,2,12,Friday,Charleston,Arkansas,72933,OGE,23
+56273,Kennon Noble,146,34,5421394,James Bernard,2021,2,12,Friday,Charleston,Arkansas,72933,OGE,21
+56273,Kennon Noble,146,34,5421394,James Bernard,2021,2,12,Friday,Charleston,Arkansas,72933,OGE,3
+56274,,146,34,6009163,Lance Houghton,2021,2,12,Friday,,,,,23
+56275,"Rufino  Gutierrez ",230,6,,,2021,2,12,Friday,,Arkansas,72832,Entergy,66
+56275,"Rufino  Gutierrez ",230,6,8462830,Hector Cruz,2021,2,12,Friday,,Arkansas,72832,Entergy,21
+56276,Pamela Grenon,230,6,,,2021,2,12,Friday,,,,,66
+56276,Pamela Grenon,230,6,9873852,Ryan  Stocking,2021,2,12,Friday,,,,,23
+56277,Bransun Pipkins,5,16,9873852,Ryan  Stocking,2021,2,12,Friday,Antoine,Arkansas,71922,Entergy,21
+56279,Cindy Phillips,230,6,9873852,Ryan  Stocking,2021,2,12,Friday,,,,,21
+56280,chris jones,193,6,1368598,Gideon Reynolds,2021,2,12,Friday,,,,,21
+56280,chris jones,193,6,1368598,Gideon Reynolds,2021,2,12,Friday,,,,,59
+56280,chris jones,193,6,1368598,Gideon Reynolds,2021,2,12,Friday,,,,,30
+56281,John DeWitt,230,6,,,2021,2,12,Friday,,,,,66
+56281,John DeWitt,230,6,1206784,Jacob Elkins,2021,2,12,Friday,,,,,23
+56281,John DeWitt,230,6,6732050,Josh Hill,2021,2,12,Friday,,,,,21
+56282,Matt Primm,230,6,,,2021,2,12,Friday,,,,,66
+56282,Matt Primm,230,6,1206784,Jacob Elkins,2021,2,12,Friday,,,,,23
+56282,Matt Primm,230,6,9593081,Jimmy Ballard,2021,2,12,Friday,,,,,21
+56282,Matt Primm,230,6,5421394,James Bernard,2021,2,12,Friday,,,,,23
+56283,Keenen Taylor,230,6,,,2021,2,12,Friday,,,,,66
+56283,Keenen Taylor,230,6,6732050,Josh Hill,2021,2,12,Friday,,,,,21
+56284,Louis and Becky Bolack,230,6,,,2021,2,12,Friday,Sapulpa,Oklahoma,74066,Other,66
+56284,Louis and Becky Bolack,230,6,3563775,Joel Brock,2021,2,12,Friday,Sapulpa,Oklahoma,74066,Other,21
+56284,Louis and Becky Bolack,230,6,3563775,Joel Brock,2021,2,12,Friday,Sapulpa,Oklahoma,74066,Other,3
+56285,Lucas Davis,230,6,,,2021,2,12,Friday,,,,,66
+56285,Lucas Davis,230,6,3563775,Joel Brock,2021,2,12,Friday,,,,,23
+56287,Roy Blair,193,6,2711226,Sam Danehower,2021,2,12,Friday,,,,,34
+56288,Lisa Wyskup-Cole,230,6,,,2021,2,12,Friday,,,,,66
+56288,Lisa Wyskup-Cole,230,6,3563775,Joel Brock,2021,2,12,Friday,,,,,23
+56288,Lisa Wyskup-Cole,230,6,2916217,Jesi Ripley,2021,2,12,Friday,,,,,21
+56289,Jeremy and Hajnal Nelc,214,17,2711226,Sam Danehower,2021,2,12,Friday,Lowel,Arkansas,72745,Ozarks Arkansas,21
+56290,Joseph Herrington,5,16,6009163,Lance Houghton,2021,2,12,Friday,,,,,21
+56292,"Chancy Chaney ",230,6,,,2021,2,12,Friday,,,,,66
+56292,"Chancy Chaney ",230,6,3563775,Joel Brock,2021,2,12,Friday,,,,,23
+56293,,146,34,9873852,Ryan  Stocking,2021,2,12,Friday,,,,,23
+56294,Terry Newton,230,6,,,2021,2,12,Friday,Pryor,Oklahoma,74361,Other Electric Company,66
+56294,Terry Newton,230,6,1206784,Jacob Elkins,2021,2,12,Friday,Pryor,Oklahoma,74361,Other Electric Company,21
+56294,Terry Newton,230,6,1206784,Jacob Elkins,2021,2,12,Friday,Pryor,Oklahoma,74361,Other Electric Company,3
+56296,Coty Morrow,230,6,,,2021,2,12,Friday,Flippin,Arkansas,72634,Entergy,66
+56296,Coty Morrow,230,6,1206784,Jacob Elkins,2021,2,12,Friday,Flippin,Arkansas,72634,Entergy,23
+56296,Coty Morrow,230,6,5136817,Zach Marchbank,2021,2,12,Friday,Flippin,Arkansas,72634,Entergy,21
+56296,Coty Morrow,230,6,5136817,Zach Marchbank,2021,2,12,Friday,Flippin,Arkansas,72634,Entergy,21
+56296,Coty Morrow,230,6,5136817,Zach Marchbank,2021,2,12,Friday,Flippin,Arkansas,72634,Entergy,3
+56298,Michael White,230,6,6009163,Lance Houghton,2021,2,12,Friday,,,,,23
+56299,James Cornelison,193,6,6419170,Daniel Samuelson,2021,2,13,Saturday,,,,,59
+56300,Teddy Flynn,230,6,,,2021,2,13,Saturday,,,,,66
+56300,Teddy Flynn,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,21
+56300,Teddy Flynn,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,58
+56301,Dale Qualls,230,6,,,2021,2,13,Saturday,,,,,66
+56301,Dale Qualls,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56302,James Falls,230,6,,,2021,2,13,Saturday,,,,,66
+56302,James Falls,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,39
+56302,James Falls,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56302,James Falls,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,21
+56303,Mychal Haggard,230,6,,,2021,2,13,Saturday,,,,,66
+56303,Mychal Haggard,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56306,Mandy Easton,230,6,,,2021,2,13,Saturday,,,,,66
+56306,Mandy Easton,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56307,Robert Illing,235,6,,,2021,2,13,Saturday,,,,,66
+56307,Robert Illing,235,6,9327768,Base API User,2021,2,13,Saturday,,,,,80
+56308,Karen mccumpsey,230,6,,,2021,2,13,Saturday,,,,,66
+56308,Karen mccumpsey,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56309,Bill Hill,230,6,,,2021,2,13,Saturday,,,,,66
+56309,Bill Hill,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56309,Bill Hill,230,6,1206784,Jacob Elkins,2021,2,13,Saturday,,,,,53
+56310,Amber McConnell,230,6,,,2021,2,13,Saturday,,,,,66
+56310,Amber McConnell,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,30
+56311,Sherman  Bradshaw,230,6,,,2021,2,13,Saturday,,,,,66
+56311,Sherman  Bradshaw,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56311,Sherman  Bradshaw,230,6,5421394,James Bernard,2021,2,13,Saturday,,,,,21
+56313,STEFANO ROSSO,230,6,,,2021,2,13,Saturday,,,,,66
+56313,STEFANO ROSSO,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56313,STEFANO ROSSO,230,6,6732050,Josh Hill,2021,2,13,Saturday,,,,,30
+56314,Billy Taylor,225,16,,,2021,2,13,Saturday,,,,,66
+56314,Billy Taylor,225,16,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56314,Billy Taylor,225,16,8303669,Joseph Miller,2021,2,13,Saturday,,,,,5
+56314,Billy Taylor,225,16,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56315,Shane Gieskieng,193,6,,,2021,2,13,Saturday,,,,,66
+56315,Shane Gieskieng,193,6,9327768,Base API User,2021,2,13,Saturday,,,,,80
+56315,Shane Gieskieng,193,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,34
+56316,Martin Hohmann,230,6,,,2021,2,13,Saturday,"Afton ",Oklahoma,74331,Other,66
+56316,Martin Hohmann,230,6,2916217,Jesi Ripley,2021,2,13,Saturday,"Afton ",Oklahoma,74331,Other,21
+56316,Martin Hohmann,230,6,2916217,Jesi Ripley,2021,2,13,Saturday,"Afton ",Oklahoma,74331,Other,3
+56316,Martin Hohmann,230,6,2916217,Jesi Ripley,2021,2,13,Saturday,"Afton ",Oklahoma,74331,Other,21
+56316,Martin Hohmann,230,6,2916217,Jesi Ripley,2021,2,13,Saturday,"Afton ",Oklahoma,74331,Other,3
+56317,Robert Hines,29,17,6009163,Lance Houghton,2021,2,13,Saturday,Oklahoma City,Oklahoma,73118,OG&E,23
+56317,Robert Hines,29,17,8303669,Joseph Miller,2021,2,13,Saturday,Oklahoma City,Oklahoma,73118,OG&E,21
+56317,Robert Hines,29,17,8303669,Joseph Miller,2021,2,13,Saturday,Oklahoma City,Oklahoma,73118,OG&E,3
+56319,Jeffrey Chase,227,16,,,2021,2,13,Saturday,,,,,66
+56319,Jeffrey Chase,227,16,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56320,Lisa Mueller,230,6,,,2021,2,13,Saturday,,,,,66
+56320,Lisa Mueller,230,6,3563775,Joel Brock,2021,2,13,Saturday,,,,,23
+56320,Lisa Mueller,230,6,1206784,Jacob Elkins,2021,2,13,Saturday,,,,,21
+56322,robert mccorkindale,230,6,,,2021,2,13,Saturday,,,,,66
+56322,robert mccorkindale,230,6,6732050,Josh Hill,2021,2,13,Saturday,,,,,23
+56323,Weston Lanpher,230,6,,,2021,2,13,Saturday,,,,,66
+56323,Weston Lanpher,230,6,1206784,Jacob Elkins,2021,2,13,Saturday,,,,,23
+56324,Robert Dudley,193,6,6419170,Daniel Samuelson,2021,2,13,Saturday,maumelle,Arkansas,72113,Entergy,21
+56324,Robert Dudley,193,6,6419170,Daniel Samuelson,2021,2,13,Saturday,maumelle,Arkansas,72113,Entergy,3
+56326,Don Hicks,230,6,,,2021,2,13,Saturday,,,,,66
+56326,Don Hicks,230,6,1206784,Jacob Elkins,2021,2,13,Saturday,,,,,23
+56327,Richard Boardman,230,6,,,2021,2,13,Saturday,,,,Other Electric Company,66
+56327,Richard Boardman,230,6,5136817,Zach Marchbank,2021,2,13,Saturday,,,,Other Electric Company,23
+56327,Richard Boardman,230,6,1206784,Jacob Elkins,2021,2,13,Saturday,,,,Other Electric Company,21
+56328,Preston  Abbott,230,6,,,2021,2,13,Saturday,Broken Arrow,Oklahoma,74011,Public Services Company of Oklahoma,66
+56328,Preston  Abbott,230,6,9873852,Ryan  Stocking,2021,2,13,Saturday,Broken Arrow,Oklahoma,74011,Public Services Company of Oklahoma,23
+56328,Preston  Abbott,230,6,6009163,Lance Houghton,2021,2,13,Saturday,Broken Arrow,Oklahoma,74011,Public Services Company of Oklahoma,21
+56328,Preston  Abbott,230,6,6009163,Lance Houghton,2021,2,13,Saturday,Broken Arrow,Oklahoma,74011,Public Services Company of Oklahoma,3
+56329,Kyong Chong,230,6,,,2021,2,13,Saturday,Tulsa,,,,66
+56329,Kyong Chong,230,6,6009163,Lance Houghton,2021,2,13,Saturday,Tulsa,,,,23
+56329,Kyong Chong,230,6,9873852,Ryan  Stocking,2021,2,13,Saturday,Tulsa,,,,21
+56330,,193,6,6009163,Lance Houghton,2021,2,13,Saturday,,,,,23
+56330,,193,6,6009163,Lance Houghton,2021,2,13,Saturday,,,,,66
+56330,,193,6,9327768,Base API User,2021,2,13,Saturday,,,,,80
+56332,Cole Bayer,230,6,,,2021,2,13,Saturday,,,,,66
+56332,Cole Bayer,230,6,6732050,Josh Hill,2021,2,13,Saturday,,,,,23
+56333,"Lucy  Guerra ",16,43,8462830,Hector Cruz,2021,2,13,Saturday,,,,,53
+56334,Kyle Roe,230,6,,,2021,2,13,Saturday,,,,,66
+56334,Kyle Roe,230,6,9873852,Ryan  Stocking,2021,2,13,Saturday,,,,,21
+56335,Todd Breeding,29,17,3866415,Jacob Gilmore,2021,2,13,Saturday,Little Rock,Arkansas,72223,Entergy,21
+56335,Todd Breeding,29,17,3866415,Jacob Gilmore,2021,2,13,Saturday,Little Rock,Arkansas,72223,Entergy,21
+56335,Todd Breeding,29,17,3866415,Jacob Gilmore,2021,2,13,Saturday,Little Rock,Arkansas,72223,Entergy,3
+56335,Todd Breeding,29,17,3866415,Jacob Gilmore,2021,2,13,Saturday,Little Rock,Arkansas,72223,Entergy,21
+56336,,181,16,6009163,Lance Houghton,2021,2,13,Saturday,,,,,23
+56337,B Selby,230,6,,,2021,2,13,Saturday,,,,,66
+56337,B Selby,230,6,1206784,Jacob Elkins,2021,2,13,Saturday,,,,,23
+56338,Cody Brown,214,17,9745922,Ben Barker,2021,2,13,Saturday,,,,,23
+56339,Jason CRANMER,214,17,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56340,william brown,230,6,,,2021,2,13,Saturday,Atwood,Oklahoma,74827,Platt Clay,66
+56340,william brown,230,6,6009163,Lance Houghton,2021,2,13,Saturday,Atwood,Oklahoma,74827,Platt Clay,21
+56340,william brown,230,6,6009163,Lance Houghton,2021,2,13,Saturday,Atwood,Oklahoma,74827,Platt Clay,21
+56340,william brown,230,6,6009163,Lance Houghton,2021,2,13,Saturday,Atwood,Oklahoma,74827,Platt Clay,3
+56343,Daniel Whitehead,230,6,,,2021,2,13,Saturday,,,,,66
+56343,Daniel Whitehead,230,6,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56344,Albert H a ll,230,6,,,2021,2,13,Saturday,,,,,66
+56344,Albert H a ll,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56344,Albert H a ll,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,21
+56344,Albert H a ll,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,5
+56346,,146,34,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56347,Ray Jordan,5,16,,,2021,2,13,Saturday,Russellville,Arkansas,72802,Entergy,66
+56347,Ray Jordan,5,16,9593081,Jimmy Ballard,2021,2,13,Saturday,Russellville,Arkansas,72802,Entergy,30
+56348,JoVoli and Brandon Clark,38,17,,,2021,2,13,Saturday,Mound City,Tennessee,66056,Other,66
+56348,JoVoli and Brandon Clark,38,17,3326583,Jacob Poppenger,2021,2,13,Saturday,Mound City,Tennessee,66056,Other,21
+56348,JoVoli and Brandon Clark,38,17,3326583,Jacob Poppenger,2021,2,13,Saturday,Mound City,Tennessee,66056,Other,3
+56349,"Bruce Cash ",230,6,,,2021,2,13,Saturday,,,,,66
+56349,"Bruce Cash ",230,6,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56349,"Bruce Cash ",230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,53
+56350,Andrew Calhoun,230,6,,,2021,2,13,Saturday,,,,,66
+56350,Andrew Calhoun,230,6,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56352,Daniel Guerra,230,6,,,2021,2,13,Saturday,,,,,66
+56352,Daniel Guerra,230,6,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56353,Joel Walters,230,6,,,2021,2,13,Saturday,,,,,66
+56353,Joel Walters,230,6,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56354,Annette Novak,193,6,,,2021,2,13,Saturday,,,,,66
+56354,Annette Novak,193,6,9327768,Base API User,2021,2,13,Saturday,,,,,80
+56355,Fallon Bleich,230,6,,,2021,2,13,Saturday,,,,,66
+56355,Fallon Bleich,230,6,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56356,"Vimal Kasagani ",230,6,,,2021,2,13,Saturday,,,,,66
+56356,"Vimal Kasagani ",230,6,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56357,"John Haeberle ",230,6,,,2021,2,13,Saturday,,,,,66
+56357,"John Haeberle ",230,6,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56357,"John Haeberle ",230,6,1206784,Jacob Elkins,2021,2,13,Saturday,,,,,31
+56358,Linda Green,230,6,,,2021,2,13,Saturday,,,,,66
+56358,Linda Green,230,6,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56359,Jonathan Jones,230,6,,,2021,2,13,Saturday,,,,,66
+56359,Jonathan Jones,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56360,Chad Whitman,214,17,8303669,Joseph Miller,2021,2,13,Saturday,lowell,Arkansas,72745,Southwestern Electric Power Company (SWEPCO),21
+56361,Mason Wallace,5,16,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56362,John Thomas,230,6,,,2021,2,13,Saturday,,,,,66
+56362,John Thomas,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56363,Don King,226,16,,,2021,2,13,Saturday,,,,,66
+56363,Don King,226,16,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56364,Aaron Lopez,230,6,,,2021,2,13,Saturday,Oklahoma City,Oklahoma,73114,OG&E,66
+56364,Aaron Lopez,230,6,8303669,Joseph Miller,2021,2,13,Saturday,Oklahoma City,Oklahoma,73114,OG&E,23
+56364,Aaron Lopez,230,6,8303669,Joseph Miller,2021,2,13,Saturday,Oklahoma City,Oklahoma,73114,OG&E,21
+56364,Aaron Lopez,230,6,8303669,Joseph Miller,2021,2,13,Saturday,Oklahoma City,Oklahoma,73114,OG&E,3
+56365,Nathan Beattie,230,6,,,2021,2,13,Saturday,,,,,66
+56365,Nathan Beattie,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56365,Nathan Beattie,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,66
+56365,Nathan Beattie,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56366,KD Montgomery,230,6,,,2021,2,13,Saturday,,,,,66
+56366,KD Montgomery,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56367,No no,214,17,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56369,perry harrison,225,16,,,2021,2,13,Saturday,Star City,Arkansas,71667,Other,66
+56369,perry harrison,225,16,8303669,Joseph Miller,2021,2,13,Saturday,Star City,Arkansas,71667,Other,21
+56370,Jody hill,6,17,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56370,Jody hill,6,17,8303669,Joseph Miller,2021,2,13,Saturday,,,,,46
+56372,"William G  Langendoen ",221,34,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56372,"William G  Langendoen ",221,34,8303669,Joseph Miller,2021,2,13,Saturday,,,,,53
+56374,Jeff Wilson,230,6,,,2021,2,13,Saturday,,,,,66
+56374,Jeff Wilson,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,5
+56375,Don Vlastuin,214,17,3326583,Jacob Poppenger,2021,2,13,Saturday,Farmingto,Arkansas,72730,Ozarks Arkansas,21
+56375,Don Vlastuin,214,17,3326583,Jacob Poppenger,2021,2,13,Saturday,Farmingto,Arkansas,72730,Ozarks Arkansas,3
+56376,,146,34,9593081,Jimmy Ballard,2021,2,13,Saturday,,,,,23
+56377,Rhonda Tilson,5,16,,,2021,2,13,Saturday,,,,,66
+56377,Rhonda Tilson,5,16,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56378,Grady Dacus,29,17,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56379,William McVay,225,16,,,2021,2,13,Saturday,Jasper,Arkansas,72641,Carroll,66
+56379,William McVay,225,16,8303669,Joseph Miller,2021,2,13,Saturday,Jasper,Arkansas,72641,Carroll,21
+56379,William McVay,225,16,8303669,Joseph Miller,2021,2,13,Saturday,Jasper,Arkansas,72641,Carroll,3
+56380,Michael Ball,230,6,,,2021,2,13,Saturday,,,,,66
+56380,Michael Ball,230,6,8303669,Joseph Miller,2021,2,13,Saturday,,,,,23
+56382,Fabio Valverde,230,6,,,2021,2,13,Saturday,,,,,66
+56382,Fabio Valverde,230,6,9745922,Ben Barker,2021,2,13,Saturday,,,,,23
+56383,"Joel Vedros ",230,6,,,2021,2,13,Saturday,,,,,66
+56383,"Joel Vedros ",230,6,9745922,Ben Barker,2021,2,13,Saturday,,,,,53
+56384,,146,34,,,2021,2,13,Saturday,,,,,66
+56384,,146,34,9745922,Ben Barker,2021,2,13,Saturday,,,,,23
+56385,Eddie Huffstetler,193,6,,,2021,2,13,Saturday,,,,,66
+56385,Eddie Huffstetler,193,6,9327768,Base API User,2021,2,13,Saturday,,,,,80
+56386,"Melissa  Kalahiki ",230,6,,,2021,2,13,Saturday,,,,,66
+56386,"Melissa  Kalahiki ",230,6,3610377,William Paget,2021,2,13,Saturday,,,,,23
+56387,Sherie Nash,221,34,6732050,Josh Hill,2021,2,13,Saturday,,,,,23
+56387,Sherie Nash,221,34,7496997,Alex Buis,2021,2,13,Saturday,,,,,30
+56388,Bruce Pizzo,143,17,8303669,Joseph Miller,2021,2,13,Saturday,,,,,5
+56389,Ivan Wayne,230,6,,,2021,2,13,Saturday,,,,,66
+56389,Ivan Wayne,230,6,3610377,William Paget,2021,2,13,Saturday,,,,,23
+56390,Greg Diel,230,6,,,2021,2,13,Saturday,,,,,66
+56390,Greg Diel,230,6,3610377,William Paget,2021,2,13,Saturday,,,,,23
+56391,"Callum Crawford ",230,6,,,2021,2,13,Saturday,,,,,66
+56391,"Callum Crawford ",230,6,3610377,William Paget,2021,2,13,Saturday,,,,,23
+56392,Paul Franklin,230,6,,,2021,2,13,Saturday,,,,,66
+56392,Paul Franklin,230,6,3866415,Jacob Gilmore,2021,2,13,Saturday,,,,,23
+56393,"Jake Bryan ",230,6,,,2021,2,13,Saturday,,,,,66
+56393,"Jake Bryan ",230,6,3866415,Jacob Gilmore,2021,2,13,Saturday,,,,,23
+56394,Chad  Van Peursem,230,6,,,2021,2,13,Saturday,,,,,66
+56394,Chad  Van Peursem,230,6,7496997,Alex Buis,2021,2,13,Saturday,,,,,23
+56394,Chad  Van Peursem,230,6,9745922,Ben Barker,2021,2,13,Saturday,,,,,21
+56395,Mark White,230,6,,,2021,2,13,Saturday,,,,,66
+56395,Mark White,230,6,9745922,Ben Barker,2021,2,13,Saturday,,,,,23
+56395,Mark White,230,6,2916217,Jesi Ripley,2021,2,13,Saturday,,,,,21
+56397,Justin Hodge,230,6,,,2021,2,13,Saturday,Rogers,Arkansas,72758,Carroll,66
+56397,Justin Hodge,230,6,6732050,Josh Hill,2021,2,13,Saturday,Rogers,Arkansas,72758,Carroll,21
+56397,Justin Hodge,230,6,6732050,Josh Hill,2021,2,13,Saturday,Rogers,Arkansas,72758,Carroll,3
+56400,"Cheryl  Slape ",221,34,5136817,Zach Marchbank,2021,2,13,Saturday,,,,,21
+56401,"J Lyons ",230,6,,,2021,2,13,Saturday,,,,,66
+56401,"J Lyons ",230,6,6732050,Josh Hill,2021,2,13,Saturday,,,,,23
+56403,Todd Mendenhall,230,6,,,2021,2,13,Saturday,Tulsa,Oklahoma,74133,Public Services Company of Oklahoma,66
+56403,Todd Mendenhall,230,6,9745922,Ben Barker,2021,2,13,Saturday,Tulsa,Oklahoma,74133,Public Services Company of Oklahoma,21
+56404,Han Cho,214,17,2711226,Sam Danehower,2021,2,13,Saturday,,,,,21
+56405,Chris Ireland,230,6,,,2021,2,13,Saturday,,,,,66
+56405,Chris Ireland,230,6,9745922,Ben Barker,2021,2,13,Saturday,,,,,23
+56405,Chris Ireland,230,6,9873852,Ryan  Stocking,2021,2,13,Saturday,,,,,21
+56406,Jamie Hearrell,214,17,9745922,Ben Barker,2021,2,13,Saturday,,,,,21
+56407,Jaret Martin,230,6,,,2021,2,13,Saturday,,,,,66
+56407,Jaret Martin,230,6,9873852,Ryan  Stocking,2021,2,13,Saturday,,,,,23
+56407,Jaret Martin,230,6,3610377,William Paget,2021,2,13,Saturday,,,,,30
+56408,Patrick Delehanty,230,6,,,2021,2,13,Saturday,,,,,66
+56408,Patrick Delehanty,230,6,9873852,Ryan  Stocking,2021,2,13,Saturday,,,,,23
+56411,"Jack Just ",230,6,,,2021,2,14,Sunday,,,,,66
+56411,"Jack Just ",230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,53
+56412,Brenda Cash,230,6,,,2021,2,14,Sunday,,,,,66
+56412,Brenda Cash,230,6,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56413,Brent Johnson,230,6,,,2021,2,14,Sunday,,,,,66
+56413,Brent Johnson,230,6,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56415,Robin Kemp,29,17,8303669,Joseph Miller,2021,2,14,Sunday,"Osceola ",Arkansas,72370,Other,23
+56415,Robin Kemp,29,17,9593081,Jimmy Ballard,2021,2,14,Sunday,"Osceola ",Arkansas,72370,Other,21
+56416,Abbie Carico,225,16,,,2021,2,14,Sunday,,,,,66
+56416,Abbie Carico,225,16,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56416,Abbie Carico,225,16,7496997,Alex Buis,2021,2,14,Sunday,,,,,34
+56418,Kelsie Lane,230,6,,,2021,2,14,Sunday,,,,,66
+56418,Kelsie Lane,230,6,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56419,Feliciano Garcia,193,6,,,2021,2,14,Sunday,,,,,66
+56419,Feliciano Garcia,193,6,9327768,Base API User,2021,2,14,Sunday,,,,,80
+56420,"Wayne  Garner ",230,6,,,2021,2,14,Sunday,,,,,66
+56420,"Wayne  Garner ",230,6,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56420,"Wayne  Garner ",230,6,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,31
+56422,Dustin Jarnagin,230,6,,,2021,2,14,Sunday,,,,,66
+56422,Dustin Jarnagin,230,6,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56423,"Paula  Rutledge ",230,6,,,2021,2,14,Sunday,,,,,66
+56423,"Paula  Rutledge ",230,6,3610377,William Paget,2021,2,14,Sunday,,,,,53
+56424,John Carradini,230,6,,,2021,2,14,Sunday,,,,,66
+56424,John Carradini,230,6,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56424,John Carradini,230,6,9873852,Ryan  Stocking,2021,2,14,Sunday,,,,,21
+56425,Chad George,230,6,,,2021,2,14,Sunday,,,,,66
+56425,Chad George,230,6,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56425,Chad George,230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,,,,,21
+56426,Nick Lorax,230,6,,,2021,2,14,Sunday,,,,,66
+56426,Nick Lorax,230,6,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56426,Nick Lorax,230,6,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,34
+56427,Rachel Strealy,230,6,,,2021,2,14,Sunday,,,,,66
+56427,Rachel Strealy,230,6,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,23
+56428,Joseph Dolton,230,6,,,2021,2,14,Sunday,,,,,66
+56428,Joseph Dolton,230,6,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,53
+56429,Zac Johnson,214,17,9745922,Ben Barker,2021,2,14,Sunday,Maumelle,Arkansas,72113,Entergy,21
+56429,Zac Johnson,214,17,9745922,Ben Barker,2021,2,14,Sunday,Maumelle,Arkansas,72113,Entergy,3
+56430,Corey Hitz,230,6,,,2021,2,14,Sunday,Welch,Oklahoma,74369,Empire-Liberty,66
+56430,Corey Hitz,230,6,1206784,Jacob Elkins,2021,2,14,Sunday,Welch,Oklahoma,74369,Empire-Liberty,23
+56430,Corey Hitz,230,6,9745922,Ben Barker,2021,2,14,Sunday,Welch,Oklahoma,74369,Empire-Liberty,21
+56432,Lacy Theisen,230,6,,,2021,2,14,Sunday,,,,,66
+56432,Lacy Theisen,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,30
+56432,Lacy Theisen,230,6,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,23
+56433,William (J) Johnson,230,6,,,2021,2,14,Sunday,Newcastle,Oklahoma,7306,Other,66
+56433,William (J) Johnson,230,6,9745922,Ben Barker,2021,2,14,Sunday,Newcastle,Oklahoma,7306,Other,23
+56433,William (J) Johnson,230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,Newcastle,Oklahoma,7306,Other,21
+56433,William (J) Johnson,230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,Newcastle,Oklahoma,7306,Other,3
+56434,"Dhana Subbiah ",230,6,,,2021,2,14,Sunday,,,,,66
+56434,"Dhana Subbiah ",230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56436,John Higley,230,6,,,2021,2,14,Sunday,,,,,66
+56436,John Higley,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56436,John Higley,230,6,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,31
+56437,Nick Milligan,227,16,,,2021,2,14,Sunday,,,,,66
+56437,Nick Milligan,227,16,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56440,Matthew Downing,214,17,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56442,Daniel Rankin,29,17,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56446,David Elder,230,6,,,2021,2,14,Sunday,,,,,66
+56446,David Elder,230,6,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,23
+56449,Erin Fletcher,230,6,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56451,"Paul  Bertelli ",230,6,,,2021,2,14,Sunday,,,,,66
+56451,"Paul  Bertelli ",230,6,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,21
+56451,"Paul  Bertelli ",230,6,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56452,Eda Poda,227,16,,,2021,2,14,Sunday,,,,,66
+56452,Eda Poda,227,16,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,23
+56452,Eda Poda,227,16,9745922,Ben Barker,2021,2,14,Sunday,,,,,53
+56453,Dakotah Smith,226,16,,,2021,2,14,Sunday,,,,,66
+56453,Dakotah Smith,226,16,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56455,Michael Durham,230,6,,,2021,2,14,Sunday,,,,,66
+56455,Michael Durham,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56456,"Blake  Thomas ",227,16,,,2021,2,14,Sunday,,,,,66
+56456,"Blake  Thomas ",227,16,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56457,Abhinav Bhatnagar,193,6,,,2021,2,14,Sunday,,,,,66
+56457,Abhinav Bhatnagar,193,6,9327768,Base API User,2021,2,14,Sunday,,,,,80
+56458,"Geoffrey  Constantine ",230,6,,,2021,2,14,Sunday,,,,,66
+56458,"Geoffrey  Constantine ",230,6,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56459,Rhett Bramley,230,6,,,2021,2,14,Sunday,,,,,66
+56459,Rhett Bramley,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56461,Linda b Brown,230,6,9745922,Ben Barker,2021,2,14,Sunday,Russellville,Arkansas,72801,Entergy,23
+56461,Linda b Brown,230,6,6009163,Lance Houghton,2021,2,14,Sunday,Russellville,Arkansas,72801,Entergy,21
+56461,Linda b Brown,230,6,6009163,Lance Houghton,2021,2,14,Sunday,Russellville,Arkansas,72801,Entergy,3
+56462,Maria Fabrega,230,6,,,2021,2,14,Sunday,,,,,66
+56462,Maria Fabrega,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56463,"Ruchik  Gabhawala ",230,6,,,2021,2,14,Sunday,,,,,66
+56463,"Ruchik  Gabhawala ",230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56464,Joe Hobson,6,17,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56465,Ronney  Hillis,230,6,,,2021,2,14,Sunday,,,,,66
+56465,Ronney  Hillis,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56466,Pau Petrik,214,17,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56468,Dustin McCabe,230,6,,,2021,2,14,Sunday,,,,,66
+56468,Dustin McCabe,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56469,Joe Murphy,230,6,,,2021,2,14,Sunday,,,,,66
+56469,Joe Murphy,230,6,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56469,Joe Murphy,230,6,3610377,William Paget,2021,2,14,Sunday,,,,,21
+56470,Heather Grissom,225,16,,,2021,2,14,Sunday,,,,,66
+56470,Heather Grissom,225,16,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56471,Brian Rincon,230,6,,,2021,2,14,Sunday,,,,,66
+56471,Brian Rincon,230,6,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56472,"Calvin  Haynes ",5,16,6732050,Josh Hill,2021,2,14,Sunday,,,,,76
+56473,Eric Graskey,214,17,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56475,Jere Iwata,230,6,,,2021,2,14,Sunday,,,,,66
+56475,Jere Iwata,230,6,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56475,Jere Iwata,230,6,5802076,Kenan McEwan,2021,2,14,Sunday,,,,,21
+56476,Joseph Hays,225,16,,,2021,2,14,Sunday,,,,,66
+56476,Joseph Hays,225,16,1206784,Jacob Elkins,2021,2,14,Sunday,,,,,23
+56476,Joseph Hays,225,16,6732050,Josh Hill,2021,2,14,Sunday,,,,,21
+56477,Martha Sikes,230,6,,,2021,2,14,Sunday,,,,,66
+56477,Martha Sikes,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56478,Jeff Fuentes,230,6,,,2021,2,14,Sunday,,,,,66
+56478,Jeff Fuentes,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,64
+56478,Jeff Fuentes,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56479,Aaron Shufelt,230,6,,,2021,2,14,Sunday,,,,,66
+56479,Aaron Shufelt,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,21
+56480,Scot Sigler,230,6,,,2021,2,14,Sunday,,,,,66
+56480,Scot Sigler,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56483,Steven Elrod,230,6,,,2021,2,14,Sunday,,,,,66
+56483,Steven Elrod,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56485,John Barnett,230,6,,,2021,2,14,Sunday,,,,,66
+56485,John Barnett,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56488,Tyler Fannon,230,6,,,2021,2,14,Sunday,,,,,66
+56488,Tyler Fannon,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56490,Raciel Oropeza,230,6,,,2021,2,14,Sunday,,,,,66
+56490,Raciel Oropeza,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56491,Gary bean,214,17,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56492,Curt Johnson,230,6,,,2021,2,14,Sunday,,,,,66
+56492,Curt Johnson,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56493,Moon Ahmed,6,17,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56495,Brice Jackson,230,6,,,2021,2,14,Sunday,,,,,66
+56495,Brice Jackson,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56496,Brian Warner,5,16,3866415,Jacob Gilmore,2021,2,14,Sunday,,,,,23
+56496,Brian Warner,5,16,9873852,Ryan  Stocking,2021,2,14,Sunday,,,,,21
+56497,Jason Miller,230,6,,,2021,2,14,Sunday,,,,,66
+56497,Jason Miller,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56497,Jason Miller,230,6,5802076,Kenan McEwan,2021,2,14,Sunday,,,,,53
+56502,Sarah and Brian Obermann,15,38,3610377,William Paget,2021,2,14,Sunday,Bella Vista,Arkansas,72714,Carroll,21
+56503,Robert and Mary paul,214,17,3610377,William Paget,2021,2,14,Sunday,Eucha,Oklahoma,74342,Other,21
+56503,Robert and Mary paul,214,17,3610377,William Paget,2021,2,14,Sunday,Eucha,Oklahoma,74342,Other,3
+56504,Adrianne Kerr,6,17,3610377,William Paget,2021,2,14,Sunday,,,,,23
+56504,Adrianne Kerr,6,17,9593081,Jimmy Ballard,2021,2,14,Sunday,,,,,21
+56506,David Williams,230,6,,,2021,2,14,Sunday,Sand Springs,Oklahoma,74063,Public Services Company of Oklahoma,66
+56506,David Williams,230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,Sand Springs,Oklahoma,74063,Public Services Company of Oklahoma,21
+56506,David Williams,230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,Sand Springs,Oklahoma,74063,Public Services Company of Oklahoma,21
+56506,David Williams,230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,Sand Springs,Oklahoma,74063,Public Services Company of Oklahoma,21
+56506,David Williams,230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,Sand Springs,Oklahoma,74063,Public Services Company of Oklahoma,3
+56507,Ademote Thumbutu,230,6,,,2021,2,14,Sunday,,,,,66
+56507,Ademote Thumbutu,230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,,,,,23
+56509,"Dakota  Johnson ",230,6,,,2021,2,14,Sunday,,,,,66
+56509,"Dakota  Johnson ",230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,,,,,23
+56509,"Dakota  Johnson ",230,6,9593081,Jimmy Ballard,2021,2,14,Sunday,,,,,53
+56510,Chris Childress,230,6,,,2021,2,14,Sunday,,,,,66
+56510,Chris Childress,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56510,Chris Childress,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,21
+56512,Mark Notwehr,230,6,,,2021,2,14,Sunday,,,,,66
+56512,Mark Notwehr,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,53
+56514,Jason Bratton,230,6,7496997,Alex Buis,2021,2,14,Sunday,Oklahoma City,Oklahoma,73173,OGE,21
+56514,Jason Bratton,230,6,7496997,Alex Buis,2021,2,14,Sunday,Oklahoma City,Oklahoma,73173,OGE,3
+56515,"Claiborne  Morton ",230,6,,,2021,2,14,Sunday,,,,,66
+56515,"Claiborne  Morton ",230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56516,Shayla crafton,214,17,,,2021,2,14,Sunday,,,,,23
+56516,Shayla crafton,214,17,7496997,Alex Buis,2021,2,14,Sunday,,,,,5
+56519,"Savannah  Herriman ",230,6,,,2021,2,14,Sunday,,,,,66
+56519,"Savannah  Herriman ",230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56519,"Savannah  Herriman ",230,6,2916217,Jesi Ripley,2021,2,14,Sunday,,,,,21
+56520,norman jackson,230,6,,,2021,2,14,Sunday,,,,,66
+56520,norman jackson,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56520,norman jackson,230,6,3610377,William Paget,2021,2,14,Sunday,,,,,30
+56521,"John  Adams ",230,6,,,2021,2,14,Sunday,,,,,66
+56521,"John  Adams ",230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56522,Jay Gann,5,16,7496997,Alex Buis,2021,2,14,Sunday,,,,,23
+56525,Steve Sharp,221,34,9745922,Ben Barker,2021,2,14,Sunday,Tulsa,Oklahoma,7410,Public Services Company of Oklahoma,21
+56526,Johnny Makinson,221,34,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56528,Joseph Newhall,230,6,,,2021,2,14,Sunday,,,,,66
+56528,Joseph Newhall,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,21
+56528,Joseph Newhall,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,30
+56530,Ryan Adams,230,6,,,2021,2,14,Sunday,Choctaw,Oklahoma,73020,OGE,66
+56530,Ryan Adams,230,6,6732050,Josh Hill,2021,2,14,Sunday,Choctaw,Oklahoma,73020,OGE,23
+56530,Ryan Adams,230,6,7496997,Alex Buis,2021,2,14,Sunday,Choctaw,Oklahoma,73020,OGE,3
+56531,Justin Cripps,230,6,,,2021,2,14,Sunday,,,,,66
+56531,Justin Cripps,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56532,"Maritta Smith ",230,6,,,2021,2,14,Sunday,,,,,66
+56532,"Maritta Smith ",230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56533,Josh Randol,230,6,,,2021,2,14,Sunday,,,,,66
+56533,Josh Randol,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56534,christopher Gritz,230,6,,,2021,2,14,Sunday,,,,,66
+56534,christopher Gritz,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56535,Erica York,230,6,,,2021,2,14,Sunday,,,,,66
+56535,Erica York,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56536,Eli Butler,230,6,,,2021,2,14,Sunday,,,,,66
+56536,Eli Butler,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,23
+56537,Mich Blasq,230,6,,,2021,2,14,Sunday,,,,,66
+56537,Mich Blasq,230,6,9745922,Ben Barker,2021,2,14,Sunday,,,,,23
+56537,Mich Blasq,230,6,5802076,Kenan McEwan,2021,2,14,Sunday,,,,,53
+56538,Katerina Pearson,230,6,,,2021,2,14,Sunday,,,,,66
+56538,Katerina Pearson,230,6,6732050,Josh Hill,2021,2,14,Sunday,,,,,21
+56539,Travis Reeder,230,6,,,2021,2,15,Monday,,,,,66
+56539,Travis Reeder,230,6,6732050,Josh Hill,2021,2,15,Monday,,,,,23
+56539,Travis Reeder,230,6,9593081,Jimmy Ballard,2021,2,15,Monday,,,,,46
+56540,Ryan Brown,230,6,,,2021,2,15,Monday,,,,,66
+56540,Ryan Brown,230,6,9593081,Jimmy Ballard,2021,2,15,Monday,,,,,23
+56540,Ryan Brown,230,6,9745922,Ben Barker,2021,2,15,Monday,,,,,30
+56542,Carlee Singh,230,6,,,2021,2,15,Monday,,,,,66
+56542,Carlee Singh,230,6,9593081,Jimmy Ballard,2021,2,15,Monday,,,,,23
+56542,Carlee Singh,230,6,5421394,James Bernard,2021,2,15,Monday,,,,,21
+56544,"Michael  Richardson ",227,16,7496997,Alex Buis,2021,2,15,Monday,,,,,23
+56545,Crystal Goodwin,230,6,,,2021,2,15,Monday,,,,,66
+56545,Crystal Goodwin,230,6,9745922,Ben Barker,2021,2,15,Monday,,,,,23
+56546,,146,34,9745922,Ben Barker,2021,2,15,Monday,,,,,23
+56550,Tiffany Wenzel,146,34,1206784,Jacob Elkins,2021,2,15,Monday,Jennings,Oklahoma,74038,Other,21
+56551,Kasey Wagnon,214,17,9745922,Ben Barker,2021,2,15,Monday,,,,,23
+56554,Stephanie Pilat,230,6,,,2021,2,15,Monday,,,,,66
+56554,Stephanie Pilat,230,6,9593081,Jimmy Ballard,2021,2,15,Monday,,,,,23
+56555,Aaron Jack,230,6,,,2021,2,15,Monday,Rogers,Arkansas,72758,,66
+56555,Aaron Jack,230,6,9745922,Ben Barker,2021,2,15,Monday,Rogers,Arkansas,72758,,23
+56555,Aaron Jack,230,6,9593081,Jimmy Ballard,2021,2,15,Monday,Rogers,Arkansas,72758,,21
+56556,Kris Mapel,230,6,,,2021,2,15,Monday,,,,,66
+56556,Kris Mapel,230,6,9593081,Jimmy Ballard,2021,2,15,Monday,,,,,21
+56557,Conner Johnson,230,6,,,2021,2,15,Monday,,,,,66
+56557,Conner Johnson,230,6,9593081,Jimmy Ballard,2021,2,15,Monday,,,,,23
+56558,Andrew Newell,230,6,,,2021,2,15,Monday,Fayetteville,Arkansas,72701,,66
+56558,Andrew Newell,230,6,6732050,Josh Hill,2021,2,15,Monday,Fayetteville,Arkansas,72701,,23
+56558,Andrew Newell,230,6,8303669,Joseph Miller,2021,2,15,Monday,Fayetteville,Arkansas,72701,,21
+56559,"Rickshaw  McConnell ",230,6,,,2021,2,15,Monday,,,,,66
+56559,"Rickshaw  McConnell ",230,6,9593081,Jimmy Ballard,2021,2,15,Monday,,,,,23
+56559,"Rickshaw  McConnell ",230,6,8303669,Joseph Miller,2021,2,15,Monday,,,,,53
+56560,,12,14,2916217,Jesi Ripley,2021,2,15,Monday,,,,,23
+56561,Abby Goodman,143,17,2916217,Jesi Ripley,2021,2,15,Monday,,,,,23
+56562,,146,34,2916217,Jesi Ripley,2021,2,15,Monday,,,,,5
+56563,,146,34,,,2021,2,15,Monday,,,,,66
+56563,,146,34,9745922,Ben Barker,2021,2,15,Monday,,,,,53
+56564,,146,34,2916217,Jesi Ripley,2021,2,15,Monday,,,,,23
+56565,,146,34,2916217,Jesi Ripley,2021,2,15,Monday,,,,,23
+56566,Scott Marsh,146,34,,,2021,2,15,Monday,Wagoner,Oklahoma,74467,Other,66
+56566,Scott Marsh,146,34,3610377,William Paget,2021,2,15,Monday,Wagoner,Oklahoma,74467,Other,23
+56566,Scott Marsh,146,34,1206784,Jacob Elkins,2021,2,15,Monday,Wagoner,Oklahoma,74467,Other,21
+56567,Michael Haney,122,44,3326583,Jacob Poppenger,2021,2,15,Monday,,,,,21
+56569,"Kenneth  Yadon ",227,16,2916217,Jesi Ripley,2021,2,15,Monday,,,,,23
+56572,Chris Martin,230,6,,,2021,2,15,Monday,,,,,66
+56572,Chris Martin,230,6,9745922,Ben Barker,2021,2,15,Monday,,,,,23
+56572,Chris Martin,230,6,2916217,Jesi Ripley,2021,2,15,Monday,,,,,5
+56572,Chris Martin,230,6,2916217,Jesi Ripley,2021,2,15,Monday,,,,,21
+56574,Sam Whiteside,230,6,,,2021,2,15,Monday,,,,,66
+56574,Sam Whiteside,230,6,3610377,William Paget,2021,2,15,Monday,,,,,21
+56576,Peyton Wright,5,16,3610377,William Paget,2021,2,15,Monday,,,,,23
+56577,Ivan Waters,230,6,,,2021,2,15,Monday,,,,,66
+56577,Ivan Waters,230,6,9593081,Jimmy Ballard,2021,2,15,Monday,,,,,23
+56578,Santos Lazo,230,6,,,2021,2,15,Monday,,,,,66
+56578,Santos Lazo,230,6,5421394,James Bernard,2021,2,15,Monday,,,,,23
+56579,Barry Eggers,225,16,,,2021,2,15,Monday,Jonesboro,Arkansas,72401,Other,66
+56579,Barry Eggers,225,16,7496997,Alex Buis,2021,2,15,Monday,Jonesboro,Arkansas,72401,Other,23
+56579,Barry Eggers,225,16,5802076,Kenan McEwan,2021,2,15,Monday,Jonesboro,Arkansas,72401,Other,21
+56579,Barry Eggers,225,16,5802076,Kenan McEwan,2021,2,15,Monday,Jonesboro,Arkansas,72401,Other,3
+56581,James Farris,230,6,,,2021,2,15,Monday,,,,,66
+56581,James Farris,230,6,9593081,Jimmy Ballard,2021,2,15,Monday,,,,,23
+56583,,146,34,5802076,Kenan McEwan,2021,2,15,Monday,,,,,23
+56584,,146,34,5421394,James Bernard,2021,2,15,Monday,,,,,23
+56585,,146,34,6009163,Lance Houghton,2021,2,15,Monday,,,,,23
+56586,,146,34,5802076,Kenan McEwan,2021,2,15,Monday,,,,,23
+56587,,146,34,,,2021,2,15,Monday,,,,,23
+56587,,146,34,1206784,Jacob Elkins,2021,2,15,Monday,,,,,53
+56588,,146,34,5421394,James Bernard,2021,2,15,Monday,,,,,23
+56589,Mike Hamilton,230,6,,,2021,2,15,Monday,,,,,66
+56589,Mike Hamilton,230,6,5421394,James Bernard,2021,2,15,Monday,,,,,23
+56590,,146,34,5421394,James Bernard,2021,2,15,Monday,,,,,23
+56590,,146,34,5421394,James Bernard,2021,2,15,Monday,,,,,53
+56593,Sean Morgan,181,16,6009163,Lance Houghton,2021,2,15,Monday,wewoka,Oklahoma,74884,OGE,21
+56593,Sean Morgan,181,16,6009163,Lance Houghton,2021,2,15,Monday,wewoka,Oklahoma,74884,OGE,21
+56593,Sean Morgan,181,16,6009163,Lance Houghton,2021,2,15,Monday,wewoka,Oklahoma,74884,OGE,3
+56597,Gabriel Kalfas,221,34,7496997,Alex Buis,2021,2,15,Monday,,,,,23
+56598,"Joice  Crawford ",230,6,,,2021,2,15,Monday,,,,,66
+56598,"Joice  Crawford ",230,6,5802076,Kenan McEwan,2021,2,15,Monday,,,,,23
+56598,"Joice  Crawford ",230,6,6732050,Josh Hill,2021,2,15,Monday,,,,,21
+56599,Matthew Parry,214,17,7496997,Alex Buis,2021,2,15,Monday,,,,,23
+56599,Matthew Parry,214,17,5802076,Kenan McEwan,2021,2,15,Monday,,,,,53
+56600,Mark Long,230,6,,,2021,2,15,Monday,,,,,66
+56600,Mark Long,230,6,5802076,Kenan McEwan,2021,2,15,Monday,,,,,23
+56603,"Randy  Gantz ",221,34,6732050,Josh Hill,2021,2,15,Monday,,,,,30
+56605,William Looney,230,6,,,2021,2,15,Monday,,,,,66
+56605,William Looney,230,6,7496997,Alex Buis,2021,2,15,Monday,,,,,53
+56606,Mike Turner,27,36,5136817,Zach Marchbank,2021,2,15,Monday,Van Bure,Arkansas,72956,Arkansas Valley Electric,3
+56609,Emily Richardson,230,6,,,2021,2,15,Monday,,,,,66
+56609,Emily Richardson,230,6,1206784,Jacob Elkins,2021,2,15,Monday,,,,,23
+56610,Richard Smith,230,6,,,2021,2,15,Monday,,,,,66
+56610,Richard Smith,230,6,1206784,Jacob Elkins,2021,2,15,Monday,,,,,23
+56611,Emily Richardson,230,6,,,2021,2,15,Monday,,,,,66
+56611,Emily Richardson,230,6,1206784,Jacob Elkins,2021,2,15,Monday,,,,,23
+56613,,181,16,1206784,Jacob Elkins,2021,2,15,Monday,,,,,23
