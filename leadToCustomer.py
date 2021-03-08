@@ -296,7 +296,11 @@ print(metrics.classification_report(yTest, yPredict))
 metrics.accuracy_score(yTest, yPredict)
 featureChart
 
-
+#%%
+###################################
+# Start the process for the 
+#   neural network
+###################################
 
 
 
