@@ -305,6 +305,7 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers, losses
 
+# Build the architechture
 model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(units = 223, activation = 'relu'),
     tf.keras.layers.Dense(units = 100, activation = 'relu'),
@@ -312,15 +313,27 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(units = 1)    
 ])
 
+# Compile the model
 model.compile(loss=losses.BinaryCrossentropy(from_logits=True),
     optimizer='adam',
     metrics=tf.metrics.BinaryAccuracy(threshold=0.0))
 
+# Fit the model
 model.fit(Xtrain, yTrain, batch_size=32, epochs=15, validation_split=.20, verbose = 0)
 
+# Find the accuracy
 test_loss, test_acc = model.evaluate(Xtrain,  yTrain, verbose=2)
 
 print('\nTest accuracy:', test_acc)
+
+#%%
+# Make the predictions 
+probability_model = tf.keras.Sequential([model, 
+    tf.keras.layers.Softmax()])
+
+# Print an array of probabilities that a lead will be a 
+#  customer
+predictions = probability_model.predict(Xtest)
 #%%
 #leadInfoML.to_csv(r'leadInfoML.csv')
 # %%
