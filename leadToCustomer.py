@@ -310,7 +310,7 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(units = 223, activation = 'relu'),
     tf.keras.layers.Dense(units = 100, activation = 'relu'),
     tf.keras.layers.Dense(units = 100, activation = 'relu'),
-    tf.keras.layers.Dense(units = 1, activation= 'sigmoid')    
+    tf.keras.layers.Dense(units = 1, activation= 'sigmoid')  
 ])
 
 # Compile the model
