@@ -310,7 +310,7 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(units = 223, activation = 'relu'),
     tf.keras.layers.Dense(units = 100, activation = 'relu'),
     tf.keras.layers.Dense(units = 100, activation = 'relu'),
-    tf.keras.layers.Dense(units = 1)    
+    tf.keras.layers.Dense(units = 1, activation= 'sigmoid')    
 ])
 
 # Compile the model
@@ -322,8 +322,7 @@ model.compile(loss=losses.BinaryCrossentropy(from_logits=True),
 model.fit(Xtrain, yTrain, batch_size=32, epochs=15, validation_split=.20, verbose = 0)
 
 # Find the accuracy
-test_loss, test_acc = model.evaluate(Xtrain,  yTrain, verbose=2)
-
+test_loss, test_acc = model.evaluate(Xtest,  yTest, verbose=2)
 print('\nTest accuracy:', test_acc)
 
 #%%
