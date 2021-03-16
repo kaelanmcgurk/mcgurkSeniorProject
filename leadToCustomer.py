@@ -53,10 +53,11 @@ WHERE owner != 6585993
 FebCleanedLeads = pd.read_csv('dataSets/cleanedLeads_2_11_21.csv')
 FebStatusHistory = pd.read_csv('dataSets/status_history_2_11_21.csv')
 leadInfoML = pd.read_csv('dataSets/leadInfoML_2_11_21.csv')
-stc = pd.read_csv('dataSets/stc.csv')
 
-#%%
-combined = leadInfoML.merge(stc, left_on = 'lead_id', right_on = 'leadId')
+stc = pd.read_csv('dataSets/stc.csv')
+stc = stc.drop(['Unnamed: 0', 'callStarted', 'repName'], axis = 1)
+
+#newLeadInfo = leadInfoML.rename(columns = {'lead_id':'leadId'})
 
 #%%
 ##########################################
@@ -217,8 +218,15 @@ leadInfoML['electric_company'] = leadInfoML['electric_company'].str.strip()
 leadInfoML['isCust'] = [1 if x == 18 else 0 for x in leadInfoML['status']] 
 
 #%%
+combined = leadInfoML.merge(stc, left_on = 'lead_id', right_on = 'leadId')
+combined = combined.query('state != "colorado" and state != "kansas" and state != "virginia" ').drop(['leadId'], axis = 1)
+
+#%%
 cols = ['dayName','state','electric_company','agentId']
 leadInfoMLDum = pd.get_dummies(leadInfoML, columns = cols)
+
+colsTwo = ['dayName','state','agentId']
+combinedDum = pd.get_dummies(combined, columns = colsTwo)
 
 #%%
 # Random oversample the data to get an equal amount of 
