@@ -1,7 +1,7 @@
 Time I have spent on this project:
 Feb 5, 8-12, 15-19, 22-24
 
-(Updated on 3/5/21)
+(Updated on 3/16/21)
 Hours: ~71
 
 Basic premise of what I have been working on for each day
@@ -23,3 +23,10 @@ Basic premise of what I have been working on for each day
     the 'Time to Appointment' numbers. Use those for the main work project AND my new machine learning algorithms.  
 
 Mar 5th; Spent an hour working through the dataset and tried to merge the speed to contact data with it
+
+Mar 16th; I started working on my Network again. I tried changing the 
+    epochs to be less or more, I changed the number of units in 
+    a dense layer, I change the 'verbose' setting on my 'model.fit'
+    and I cannot seem to get my accuracy above 0.501. I found
+    a tutorial on structured data in the TensorFlow tutorials, so
+    maybe that will help me get what I want. We will see.
