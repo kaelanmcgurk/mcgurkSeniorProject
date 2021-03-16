@@ -307,10 +307,9 @@ from tensorflow.keras import layers, losses
 
 # Build the architechture
 model = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(units = 223, activation = 'relu'),
-    tf.keras.layers.Dense(units = 100, activation = 'relu'),
-    tf.keras.layers.Dense(units = 100, activation = 'relu'),
-    tf.keras.layers.Dense(units = 1, activation= 'sigmoid')  
+    tf.keras.layers.Dense(units = 223, activation = 'sigmoid'),
+    tf.keras.layers.Dense(units = 200, activation = 'relu'),
+    tf.keras.layers.Dense(units = 1, activation= 'relu')  
 ])
 
 # Compile the model
@@ -319,7 +318,7 @@ model.compile(loss=losses.BinaryCrossentropy(from_logits=True),
     metrics=tf.metrics.BinaryAccuracy(threshold=0.0))
 
 # Fit the model
-model.fit(Xtrain, yTrain, batch_size=32, epochs=15, validation_split=.20, verbose = 0)
+model.fit(Xtrain, yTrain, batch_size=32, epochs=15, validation_split=.20, verbose = 2)
 
 # Find the accuracy
 test_loss, test_acc = model.evaluate(Xtest,  yTest, verbose=2)
