@@ -53,10 +53,11 @@ WHERE owner != 6585993
 FebCleanedLeads = pd.read_csv('dataSets/cleanedLeads_2_11_21.csv')
 FebStatusHistory = pd.read_csv('dataSets/status_history_2_11_21.csv')
 leadInfoML = pd.read_csv('dataSets/leadInfoML_2_11_21.csv')
-stc = pd.read_csv('dataSets/stc.csv')
 
-#%%
-combined = leadInfoML.merge(stc, left_on = 'lead_id', right_on = 'leadId')
+stc = pd.read_csv('dataSets/stc.csv')
+stc = stc.drop(['Unnamed: 0', 'callStarted', 'repName'], axis = 1)
+
+#newLeadInfo = leadInfoML.rename(columns = {'lead_id':'leadId'})
 
 #%%
 ##########################################
@@ -217,8 +218,15 @@ leadInfoML['electric_company'] = leadInfoML['electric_company'].str.strip()
 leadInfoML['isCust'] = [1 if x == 18 else 0 for x in leadInfoML['status']] 
 
 #%%
+combined = leadInfoML.merge(stc, left_on = 'lead_id', right_on = 'leadId')
+combined = combined.query('state != "colorado" and state != "kansas" and state != "virginia" ').drop(['leadId'], axis = 1)
+
+#%%
 cols = ['dayName','state','electric_company','agentId']
 leadInfoMLDum = pd.get_dummies(leadInfoML, columns = cols)
+
+colsTwo = ['dayName','state','agentId']
+combinedDum = pd.get_dummies(combined, columns = colsTwo)
 
 #%%
 # Random oversample the data to get an equal amount of 
@@ -307,10 +315,9 @@ from tensorflow.keras import layers, losses
 
 # Build the architechture
 model = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(units = 223, activation = 'relu'),
-    tf.keras.layers.Dense(units = 100, activation = 'relu'),
-    tf.keras.layers.Dense(units = 100, activation = 'relu'),
-    tf.keras.layers.Dense(units = 1, activation= 'sigmoid')  
+    tf.keras.layers.Dense(units = 223, activation = 'sigmoid'),
+    tf.keras.layers.Dense(units = 200, activation = 'relu'),
+    tf.keras.layers.Dense(units = 1, activation= 'relu')  
 ])
 
 # Compile the model
@@ -319,7 +326,7 @@ model.compile(loss=losses.BinaryCrossentropy(from_logits=True),
     metrics=tf.metrics.BinaryAccuracy(threshold=0.0))
 
 # Fit the model
-model.fit(Xtrain, yTrain, batch_size=32, epochs=15, validation_split=.20, verbose = 0)
+model.fit(Xtrain, yTrain, batch_size=32, epochs=15, validation_split=.20, verbose = 2)
 
 # Find the accuracy
 test_loss, test_acc = model.evaluate(Xtest,  yTest, verbose=2)
