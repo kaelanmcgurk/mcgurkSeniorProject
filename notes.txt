@@ -2,7 +2,7 @@ Time I have spent on this project:
 Feb 5, 8-12, 15-19, 22-24, March 5, 16, 
 
 (Updated on 3/16/21)
-Hours: ~71
+Hours: ~75
 
 Basic premise of what I have been working on for each day
 5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
@@ -30,3 +30,7 @@ Mar 16th; I started working on my Network again. I tried changing the
     and I cannot seem to get my accuracy above 0.501. I found
     a tutorial on structured data in the TensorFlow tutorials, so
     maybe that will help me get what I want. We will see.
+
+March 17th; I cleaned up the datasets I have been working with so 
+    it would not include any personal info. Now I am free to share
+    it as I need to. 
