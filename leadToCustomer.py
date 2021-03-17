@@ -55,7 +55,7 @@ FebStatusHistory = pd.read_csv('dataSets/status_history_2_11_21.csv')
 leadInfoML = pd.read_csv('dataSets/leadInfoML_2_11_21.csv')
 
 stc = pd.read_csv('dataSets/stc.csv')
-stc = stc.drop(['Unnamed: 0', 'callStarted', 'repName'], axis = 1)
+stc = stc.drop(['Unnamed: 0', 'callStarted'], axis = 1)
 
 #newLeadInfo = leadInfoML.rename(columns = {'lead_id':'leadId'})
 
@@ -66,9 +66,6 @@ stc = stc.drop(['Unnamed: 0', 'callStarted', 'repName'], axis = 1)
 ##########################################
 
 FebCleanedLeads['zip_code'] = FebCleanedLeads['zip_code'].str.split('-').str.get(0).str.strip()
-
-FebCleanedLeads['city'] = FebCleanedLeads['city'].str.lower()
-FebCleanedLeads['city'] = FebCleanedLeads['city'].str.strip()
 
 FebCleanedLeads['state'] = FebCleanedLeads['state'].str.strip()
 
@@ -96,18 +93,6 @@ FebCleanedLeads = FebCleanedLeads.assign(
         .replace('72641 35.9', np.nan)
         .replace('72712yu', np.nan)
         .fillna('0'),
-    city = lambda x: x.city
-        .replace('24 rannoch dr', np.nan)
-        .replace('35147 county scarnegie', np.nan)
-        .replace('call 10-30', np.nan)
-        .replace('call 10/26', np.nan)
-        .replace('call after 7', np.nan)
-        .replace('call after work', np.nan)
-        .replace('call at the end of the month', np.nan)
-        .replace('call early afterno', np.nan)
-        .replace('needs time with girl', np.nan)
-        .replace('out of service area call her back when in st james mo', np.nan)
-        .fillna('noCity'),
     state = lambda x: x.state
         .replace('VA', 'Virginia')
         .replace('TN', 'Tennessee')
@@ -170,18 +155,6 @@ leadInfoML = leadInfoML.assign(
         .replace('72641 35.9', np.nan)
         .replace('72712yu', np.nan)
         .fillna('0'),
-    city = lambda x: x.city
-        .replace('24 rannoch dr', np.nan)
-        .replace('35147 county scarnegie', np.nan)
-        .replace('call 10-30', np.nan)
-        .replace('call 10/26', np.nan)
-        .replace('call after 7', np.nan)
-        .replace('call after work', np.nan)
-        .replace('call at the end of the month', np.nan)
-        .replace('call early afterno', np.nan)
-        .replace('needs time with girl', np.nan)
-        .replace('out of service area call her back when in st james mo', np.nan)
-        .fillna('noCity'),
     state = lambda x: x.state
         .replace('VA', 'Virginia')
         .replace('TN', 'Tennessee')
@@ -204,9 +177,6 @@ leadInfoML = leadInfoML.assign(
 )
 
 #%%
-leadInfoML['city'] = leadInfoML['city'].str.lower()
-leadInfoML['city'] = leadInfoML['city'].str.strip()
-
 leadInfoML['state'] = leadInfoML['state'].str.strip()
 leadInfoML['state'] = leadInfoML['state'].str.lower()
 
@@ -253,7 +223,7 @@ from sklearn import ensemble, tree
 from sklearn.metrics import accuracy_score, mean_squared_error
 
 
-X = leadInfoMLDum.drop(['isCust','status','agentName','lead_id','city', 'zip_code'], axis = 1)
+X = leadInfoMLDum.drop(['isCust','status','lead_id','zip_code'], axis = 1)
 y = leadInfoMLDum.filter(items=['isCust'])
 
 #%%
