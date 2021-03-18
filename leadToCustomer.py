@@ -296,7 +296,7 @@ model.compile(loss=losses.BinaryCrossentropy(from_logits=True),
     metrics=tf.metrics.BinaryAccuracy(threshold=0.0))
 
 # Fit the model
-model.fit(Xtrain, yTrain, batch_size=32, epochs=15, validation_split=.20, verbose = 2)
+model.fit(Xtrain, yTrain, epochs=15, validation_split=.20, verbose = 2)
 
 # Find the accuracy
 test_loss, test_acc = model.evaluate(Xtest,  yTest, verbose=2)
@@ -313,6 +313,25 @@ predictions = probability_model.predict(Xtest)
 #%%
 #leadInfoML.to_csv(r'leadInfoML.csv')
 # %%
+#############################################
+# Completely different kind of Neural Network
+#   I am going off of the Structured Data
+#   tutorial on TensorFlow
+#
+#############################################
+
+X = combined.drop(['isCust','status','lead_id','zip_code','electric_company'], axis = 1)
+y = combined.filter(items=['isCust'])
+
+#%%
+X_OS, y_OS = ro.fit_resample(X, y)
+
+combinedX = pd.DataFrame(X_OS)
+combinedY = pd.DataFrame(y_OS)
+
+
+
+#%%
 '''
 #################################
 # Try another model with the agent_id
