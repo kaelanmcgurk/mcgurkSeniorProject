@@ -54,6 +54,10 @@ FebCleanedLeads = pd.read_csv('dataSets/cleanedLeads_2_11_21.csv')
 FebStatusHistory = pd.read_csv('dataSets/status_history_2_11_21.csv')
 leadInfoML = pd.read_csv('dataSets/leadInfoML_2_11_21.csv')
 
+leadsAppt = pd.read_csv('dataSets/leadsAppointments.csv')
+leadsStatusHist = pd.read_csv('dataSets/leadsStatusHistory.csv')
+leadsCallLogs = pd.read_csv('dataSets/leadsCallLogs.csv')
+
 stc = pd.read_csv('dataSets/stc.csv')
 stc = stc.drop(['Unnamed: 0', 'callStarted'], axis = 1)
 
@@ -190,6 +194,13 @@ leadInfoML['isCust'] = [1 if x == 18 else 0 for x in leadInfoML['status']]
 #%%
 combined = leadInfoML.merge(stc, left_on = 'lead_id', right_on = 'leadId')
 combined = combined.query('state != "colorado" and state != "kansas" and state != "virginia" ').drop(['leadId'], axis = 1)
+
+#%%
+# Merge the new datasets so that they look better
+leadsCombined = leadsAppt.merge(leadsCallLogs)
+leadsData = leadsCombined.merge(leadsStatusHist)
+
+
 
 #%%
 cols = ['dayName','state','electric_company','agentId']
