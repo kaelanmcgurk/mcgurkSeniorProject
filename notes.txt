@@ -1,8 +1,8 @@
 Time I have spent on this project:
-Feb 5, 8-12, 15-19, 22-24, March 5, 16, 
+Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 
 
-(Updated on 3/16/21)
-Hours: ~75
+(Updated on 4/19/21)
+Hours: ~94.5
 
 Basic premise of what I have been working on for each day
 5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
@@ -34,3 +34,11 @@ Mar 16th; I started working on my Network again. I tried changing the
 March 17th; I cleaned up the datasets I have been working with so 
     it would not include any personal info. Now I am free to share
     it as I need to. 
+
+April 9th, 16th, 19th,; As I looked through the analytics section of the Luminary app, I noticed I was not using 
+    a bunch of numbers that could add great value to regressions and algorithims that I could make. So, I decided
+    I wanted to add number of calls, number of leads claimed, appointments set, number of dials, talk time, and
+    number of sales. As I went to get that information from the database, I have been unsuccessful. For whatever reason, 
+    the JOINs of the tables lead_products, call_logs, appointments, and status_history. It is probably because 
+    those tables are all massive... but still I am getting very spectific pieces of data from each table so it 
+    shouldn't be too much to grab. I don't understand.
