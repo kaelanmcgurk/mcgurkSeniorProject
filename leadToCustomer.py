@@ -57,6 +57,7 @@ leadInfoML = pd.read_csv('dataSets/leadInfoML_2_11_21.csv')
 leadsAppt = pd.read_csv('dataSets/leadsAppointments.csv')
 leadsStatusHist = pd.read_csv('dataSets/leadsStatusHistory.csv')
 leadsCallLogs = pd.read_csv('dataSets/leadsCallLogs.csv')
+leadsStatus = pd.read_csv('dataSets/leadsStatusCurrent.csv')
 
 stc = pd.read_csv('dataSets/stc.csv')
 stc = stc.drop(['Unnamed: 0', 'callStarted'], axis = 1)
@@ -199,6 +200,42 @@ combined = combined.query('state != "colorado" and state != "kansas" and state !
 # Merge the new datasets so that they look better
 leadsCombined = leadsAppt.merge(leadsCallLogs)
 leadsData = leadsCombined.merge(leadsStatusHist)
+leadsDat = leadsData.merge(stc, left_on = 'lead_id', right_on = 'leadId')
+leadsFinal = leadsDat.merge(leadsStatus)
+leadsFinal = leadsFinal.drop(['leadId'], axis = 1)
+
+
+#%%
+########################
+# Clean up the leadsData 
+#   just a bit
+########################
+
+#repLeadSource.isna().sum() 
+#repLeadSource['lead_source'].value_counts()
+
+leadsFinal = leadsFinal.assign(
+    state = lambda x: x.state
+        .replace('VA', 'Virginia')
+        .replace('TN', 'Tennessee')
+        .replace('OK', 'Oklahoma')
+        .replace('NJ', 'New Jersey')
+        .replace('MO', 'Missouri')
+        .replace('CO', 'Colorado')
+        .replace('AR', 'Arkansas')
+        .replace('TX', 'Texas')
+        .replace('Select a state', np.nan)
+        .replace('KS', 'Kansas')
+        .replace('IL', 'Illinois')
+        .replace('MD', 'Maryland')
+        .replace('CA', 'California')
+        .replace('M', np.nan)
+        .replace('FL', 'Florida')
+        .fillna('noState') 
+)
+
+leadsFinal = leadsFinal.drop(['state'], axis = 1)
+leadsFinal['isCust'] = [1 if x == 18 else 0 for x in leadsFinal['status']] 
 
 
 
@@ -237,11 +274,19 @@ from sklearn.metrics import accuracy_score, mean_squared_error
 X = leadInfoMLDum.drop(['isCust','status','lead_id','zip_code'], axis = 1)
 y = leadInfoMLDum.filter(items=['isCust'])
 
+A = leadsFinal.drop(['lead_id','status', 'isCust'],axis = 1)
+b = leadsFinal.filter(items = ['isCust'])
+
 #%%
 X_OS, y_OS = ro.fit_resample(X, y)
 
 X_OS = pd.DataFrame(X_OS)
 y_OS = pd.DataFrame(y_OS)
+
+A_OS, b_OS = ro.fit_resample(A, b)
+
+A_OS = pd.DataFrame(A_OS)
+b_OS = pd.DataFrame(b_OS)
 
 #%%
 Xtrain, Xtest, yTrain, yTest = train_test_split(
@@ -250,6 +295,11 @@ Xtrain, Xtest, yTrain, yTest = train_test_split(
     test_size=0.2
 )
 
+Atrain, Atest, bTrain, bTest = train_test_split(
+    A_OS, 
+    b_OS, 
+    test_size=0.2
+)
 
 # %%
 ###################################
@@ -260,6 +310,9 @@ Xtrain, Xtest, yTrain, yTest = train_test_split(
 
 ShineTreeClf = tree.DecisionTreeClassifier()
 ShineTreeClf.fit(Xtrain, yTrain)
+
+ShineTreeClfAB = tree.DecisionTreeClassifier()
+ShineTreeClfAB.fit(Atrain, bTrain)
 
 #%%
 ##################################
@@ -283,6 +336,27 @@ metrics.plot_confusion_matrix(ShineTreeClf, Xtest,yTest)
 print(' ')
 print(metrics.classification_report(yTest, yPredict))
 metrics.accuracy_score(yTest, yPredict)
+featureChart
+
+##
+##
+#%%
+bPredict = ShineTreeClfAB.predict(Atest)
+
+featureDat = pd.DataFrame({
+    "values":ShineTreeClfAB.feature_importances_,
+    "features":Atrain.columns})
+featureChart = (alt.Chart(featureDat.query('values > .017'))
+    .encode(
+     alt.X("values"),
+     alt.Y("features", sort = "-x"))
+    .mark_bar()
+)
+featureChart
+metrics.plot_confusion_matrix(ShineTreeClfAB, Atest,bTest)
+print(' ')
+print(metrics.classification_report(bTest, bPredict))
+metrics.accuracy_score(bTest, bPredict)
 featureChart
 
 #%%
@@ -321,6 +395,39 @@ probability_model = tf.keras.Sequential([model,
 # Print an array of probabilities that a lead will be a 
 #  customer
 predictions = probability_model.predict(Xtest)
+
+#%%
+#################
+# Run the model on
+#   the new data table
+#################
+# Build the architechture
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Dense(units = 7, activation = 'sigmoid'),
+    tf.keras.layers.Dense(units = 2200, activation = 'relu'),
+    tf.keras.layers.Dense(units = 1, activation= 'relu')  
+])
+
+# Compile the model
+model.compile(loss=losses.BinaryCrossentropy(from_logits=True),
+    optimizer='adam',
+    metrics=tf.metrics.BinaryAccuracy(threshold=0.0))
+
+
+model.fit(Atrain, bTrain, epochs=150, validation_split=.20, verbose = 2)
+
+# Find the accuracy
+test_loss, test_acc = model.evaluate(Atest,  bTest, verbose=2)
+print('\nTest accuracy:', test_acc)
+
+#%%
+# Make the predictions 
+probability_model = tf.keras.Sequential([model, 
+    tf.keras.layers.Softmax()])
+
+# Print an array of probabilities that a lead will be a 
+#  customer
+predictions = probability_model.predict(Atest)
 #%%
 #leadInfoML.to_csv(r'leadInfoML.csv')
 # %%
@@ -331,14 +438,54 @@ predictions = probability_model.predict(Xtest)
 #
 #############################################
 
-X = combined.drop(['isCust','status','lead_id','zip_code','electric_company'], axis = 1)
-y = combined.filter(items=['isCust'])
+from tensorflow import feature_column
+from tensorflow.keras import layers
+from sklearn.model_selection import train_test_split
+
+# From the top, just start with the data oversample because it smol
+
+A = leadsFinal.drop(['status', 'isCust'],axis = 1)
+b = leadsFinal.filter(items = ['isCust'])
+
+A_OS, b_OS = ro.fit_resample(A, b)
+
+A_OS = pd.DataFrame(A_OS)
+b_OS = pd.DataFrame(b_OS)
+
+A_OS['isCust'] = b_OS
 
 #%%
-X_OS, y_OS = ro.fit_resample(X, y)
+#######################################
+# Split data into test/train/validation 
+#######################################
 
-combinedX = pd.DataFrame(X_OS)
-combinedY = pd.DataFrame(y_OS)
+train, test = train_test_split(A_OS, test_size=0.2)
+train, val = train_test_split(train, test_size=0.2)
+
+#%%
+##########################
+# Use tf.data to use feature columns
+#   in this network
+##########################
+
+def df_to_dataset(dataframe, shuffle=True, batch_size=32):
+  dataframe = dataframe.copy()
+  labels = dataframe.pop('isCust')
+  ds = tf.data.Dataset.from_tensor_slices((dict(dataframe), labels))
+  if shuffle:
+    ds = ds.shuffle(buffer_size=len(dataframe))
+  ds = ds.batch(batch_size)
+  return ds
+
+batch_size = 2 # A small batch sized is used for demonstration purposes
+train_ds = df_to_dataset(train, batch_size=batch_size)
+val_ds = df_to_dataset(val, shuffle=False, batch_size=batch_size)
+test_ds = df_to_dataset(test, shuffle=False, batch_size=batch_size)
+
+
+
+
+
 
 
 
