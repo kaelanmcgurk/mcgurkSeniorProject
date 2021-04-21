@@ -404,7 +404,7 @@ predictions = probability_model.predict(Xtest)
 # Build the architechture
 model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(units = 7, activation = 'sigmoid'),
-    tf.keras.layers.Dense(units = 2200, activation = 'relu'),
+    tf.keras.layers.Dense(units = 20, activation = 'relu'),
     tf.keras.layers.Dense(units = 1, activation= 'relu')  
 ])
 
@@ -477,16 +477,57 @@ def df_to_dataset(dataframe, shuffle=True, batch_size=32):
   ds = ds.batch(batch_size)
   return ds
 
-batch_size = 2 # A small batch sized is used for demonstration purposes
+batch_size = 32 
 train_ds = df_to_dataset(train, batch_size=batch_size)
 val_ds = df_to_dataset(val, shuffle=False, batch_size=batch_size)
 test_ds = df_to_dataset(test, shuffle=False, batch_size=batch_size)
 
+# Look at each feature batch and the list of targets (isCust)
+for feature_batch, label_batch in train_ds.take(1):
+  print('Every feature:', list(feature_batch.keys()))
+  print()
+  print('A batch of callTimes:', feature_batch['callTimeMinute'])
+  print()
+  print('A batch of targets:', label_batch )
+
+#%%
+# Make the columns into numeric feature columns 
+
+feature_columns = []
+listOfColumns = ['lead_id', 'month', 'year', 'numberOfAppointments', 'numberOfCalls', 'callTimeMinute', 'numberofStatuses', 'hoursSinceCall']
+
+# numeric cols
+for header in listOfColumns:
+  feature_columns.append(feature_column.numeric_column(header))
 
 
+# Make those feature_columns into keras readable layers
+feature_layer = tf.keras.layers.DenseFeatures(feature_columns)
+
+#%%
+# Now it is time to run the model!!
+
+model = tf.keras.Sequential([
+  feature_layer,
+  layers.Dense(128, activation='relu'),
+  layers.Dense(128, activation = 'linear'),
+  layers.Dropout(.1),
+  layers.Dense(1)
+])
+
+model.compile(optimizer='adam',
+              loss=tf.keras.losses.BinaryCrossentropy(from_logits=True),
+              metrics=['accuracy'])
+
+model.fit(train_ds,
+          validation_data=val_ds,
+          epochs=200)
 
 
-
+print()
+loss, accuracy = model.evaluate(test_ds)
+print()
+print("Accuracy", accuracy)
 
 
 #%%
