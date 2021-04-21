@@ -510,7 +510,7 @@ feature_layer = tf.keras.layers.DenseFeatures(feature_columns)
 model = tf.keras.Sequential([
   feature_layer,
   layers.Dense(128, activation='relu'),
-  layers.Dense(128, activation = 'linear'),
+  layers.Dense(32, activation = 'linear'),
   layers.Dropout(.1),
   layers.Dense(1)
 ])
