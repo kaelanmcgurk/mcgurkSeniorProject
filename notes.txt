@@ -1,8 +1,8 @@
 Time I have spent on this project:
-Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 
+Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th
 
-(Updated on 4/19/21)
-Hours: ~94.5
+(Updated on 4/21/21)
+Hours: ~100
 
 Basic premise of what I have been working on for each day
 5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
@@ -42,3 +42,16 @@ April 9th, 16th, 19th,; As I looked through the analytics section of the Luminar
     the JOINs of the tables lead_products, call_logs, appointments, and status_history. It is probably because 
     those tables are all massive... but still I am getting very spectific pieces of data from each table so it 
     shouldn't be too much to grab. I don't understand.
+
+April 20th; I was finally able to get the data I wanted in a good format.
+    It took some doing and some fancy wrangling of four different tables,
+    but I got it. I set up the format to make it work with my simple 
+    Nueral Network I made and it... didn't work? I say it like this
+    because I got a result but, down to the 20th decimal place, it 
+    is the exact same number that I got from the different set of
+    data I used. So... really don't know what is going on here. I decided
+    to completely change my network. I am starting to work with TensorFlow's
+    tutorial on Structured Data along with classifying structured data
+    with feature columns. We shall see what happens
+
+April 21st; 
