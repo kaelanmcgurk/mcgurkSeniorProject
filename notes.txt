@@ -54,4 +54,8 @@ April 20th; I was finally able to get the data I wanted in a good format.
     tutorial on Structured Data along with classifying structured data
     with feature columns. We shall see what happens
 
-April 21st; 
+April 21st; Finish up the final bits of the network. I tested it and    
+    it is performing quite well! I am getting around an 81% accuracy. 
+    Now I just need to figure out how to get a percentage chance of
+    each lead becoming a customer. A softmax() function would probably
+    do it, I just don't know how to implement it. 
