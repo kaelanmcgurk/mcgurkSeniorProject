@@ -534,6 +534,9 @@ print()
 print("Accuracy", accuracy)
 
 
+#Hey dingus! Check out the lead 27930. Why is his talk time 
+#    FREAKING ENORMOUS!?
+
 #%%
 '''
 #################################
