@@ -477,7 +477,7 @@ def df_to_dataset(dataframe, shuffle=True, batch_size=32):
   ds = ds.batch(batch_size)
   return ds
 
-batch_size = 32 
+batch_size = 64 
 train_ds = df_to_dataset(train, batch_size=batch_size)
 val_ds = df_to_dataset(val, shuffle=False, batch_size=batch_size)
 test_ds = df_to_dataset(test, shuffle=False, batch_size=batch_size)
@@ -510,7 +510,7 @@ feature_layer = tf.keras.layers.DenseFeatures(feature_columns)
 model = tf.keras.Sequential([
   feature_layer,
   layers.Dense(128, activation='relu'),
-  layers.Dense(32, activation = 'linear'),
+  layers.Dense(128, activation = 'linear'),
   layers.Dropout(.1),
   layers.Dense(1)
 ])
