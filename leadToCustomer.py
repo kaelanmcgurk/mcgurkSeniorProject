@@ -534,8 +534,8 @@ print()
 print("Accuracy", accuracy)
 
 
-#Hey dingus! Check out the lead 27930. Why is his talk time 
-#    FREAKING ENORMOUS!?
+#%%
+predictedLeads = model.predict_classes(test_ds, batch_size = batch_size)
 
 #%%
 '''
