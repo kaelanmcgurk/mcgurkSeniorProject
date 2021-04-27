@@ -1,8 +1,8 @@
 Time I have spent on this project:
-Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th
+Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th
 
 (Updated on 4/21/21)
-Hours: ~104
+Hours: ~107
 
 Basic premise of what I have been working on for each day
 5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
@@ -59,3 +59,20 @@ April 21st; Finish up the final bits of the network. I tested it and
     Now I just need to figure out how to get a percentage chance of
     each lead becoming a customer. A softmax() function would probably
     do it, I just don't know how to implement it. 
+
+April 26th; Started work on my blog. I installed distill. I made my 
+    first .Rmd blog post. I don't really know where to go from there.
+
+April 27th; I had Sister Larson help me get my blog ready to deploy.
+    She helped me make a new repo in GitHub and she explained how 
+    to set it up so that GitHub will host my blog. 
+    Along with that I put more work into my network. I was able to
+    finally get an output! I just needed to use the function 
+    .predict() ... Go Figure. Actually not quite THAT simple.
+    I noticed in the TensorFlow website/tutorial I am working with
+    I am using model classes and there was a '.predict_classes()' 
+    function. So I tried that and it gave me a column of 1s and 0s. 
+    I am... farily confident that is correct. I mean, I checked it
+    against the dataset I used and... it looked right to me. I also 
+    looked up how to get a probability from the model and it looks
+    like I need to use Softmax. I will look into that more... later.
