@@ -1,0 +1,31 @@
+---
+title: "Introductions: DataDude"
+description: | 
+  A quick intro to me and the project
+author:
+  - name: Kaelan McGurk 
+    url: https://example.com/kaelanmcgurk
+    affiliation: BYU-Idaho Data Science Department
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Hello! My name is Kaelan McGurk. I am an aspiring data scientist with an affinity for answering questions. I like digging into the raw data and coming up with solutions. I will work diligently and give you a fair result.
+
+Just, please, for the love of all the is holy, pay me more than my voice acting directors.
+
+More (serious and professional) posts to come. I am really just figuring this out for now. 
+
+# What I am doing
+
+I am creating a machine learning algorithm to determine which leads turn into customers for the solar company I work for. I am using data about each leads' location, talk numbers, number of appointments, etc to determine which leads will turn into customers.
+
+
+
+
+
