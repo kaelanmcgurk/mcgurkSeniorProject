@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-04-27T11:17:22-06:00"
+    },
+    {
+      "path": "index.html",
+      "title": "McGurkSeniorProject",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-04-27T11:17:23-06:00"
+    },
+    {
+      "path": "IntroductionBlog.html",
+      "title": "Introductions: DataDude",
+      "description": "A quick intro to me and the project\n",
+      "author": [
+        {
+          "name": "Kaelan McGurk",
+          "url": "https://example.com/kaelanmcgurk"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nHello! My name is Kaelan McGurk. I am an aspiring data scientist with an affinity for answering questions. I like digging into the raw data and coming up with solutions. I will work diligently and give you a fair result.\r\nJust, please, for the love of all the is holy, pay me more than my voice acting directors.\r\nMore (serious and professional) posts to come. I am really just figuring this out for now.\r\nWhat I am doing\r\nI am creating a machine learning algorithm to determine which leads turn into customers for the solar company I work for. I am using data about each leads’ location, talk numbers, number of appointments, etc to determine which leads will turn into customers.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-04-27T11:17:23-06:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
