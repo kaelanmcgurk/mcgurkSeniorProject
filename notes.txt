@@ -76,3 +76,11 @@ April 27th; I had Sister Larson help me get my blog ready to deploy.
     against the dataset I used and... it looked right to me. I also 
     looked up how to get a probability from the model and it looks
     like I need to use Softmax. I will look into that more... later.
+
+April 28th; I did some reasearch about show feature importance for 
+    my Tensor Flow Neural Network. As I was doing my reasearch, I
+    saw a lot of packages that were able to explain image classification
+    networks but not classification of traditional data points. So then
+    it occured to me.... am I bringing a bazooka to a street fight...
+    Am I COMPLETELY over complicating this project when I could just
+    use a tree classifier or a random forest...? Something to think about.
