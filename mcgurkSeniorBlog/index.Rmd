@@ -1,5 +1,0 @@
----
-title: "McGurkSeniorProject"
-site: distill::distill_website
-listing: posts
----
