@@ -1,8 +1,8 @@
 Time I have spent on this project:
-Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th
+Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th, 28th, 29th
 
 (Updated on 4/21/21)
-Hours: ~108
+Hours: ~109
 
 Basic premise of what I have been working on for each day
 5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
@@ -84,3 +84,21 @@ April 28th; I did some reasearch about show feature importance for
     it occured to me.... am I bringing a bazooka to a street fight...
     Am I COMPLETELY over complicating this project when I could just
     use a tree classifier or a random forest...? Something to think about.
+
+April 29th; For whatever reason, I lost my blog in Rstudio. I don't know 
+    how it happened, but I needed to redo it and reinitialize the entire
+    repo. So I was able to do that and I got it up and running again and NOW 
+    I know how to properly build the website and blog so that it will link 
+    to my other posts. I also talked to Brother Palmer about my progress
+    over all. I described my thought about my Neural Network being overkill
+    and he more or less agreed with me. He also turned me onto this 
+    cool software called JMP. It is a way to easily visualize descision
+    trees. Now I just need to work on explaining how my descision tree
+    does what it does. 
+    I... got it... I freaking got it. I looked up another logistic
+    classifier model that used a random forest. I was looking 
+    through the API and I found that it had a predict_proba()
+    function. I ran that function and it... gave me a probability.
+    How about that! Now! I just need to figure out how to link the
+    lead_id to the predicted probability. 
+    We are almost there boys and girls. We are almost there.
