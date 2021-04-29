@@ -2,7 +2,7 @@ Time I have spent on this project:
 Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th, 28th, 29th
 
 (Updated on 4/21/21)
-Hours: ~109
+Hours: ~113
 
 Basic premise of what I have been working on for each day
 5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
