@@ -237,7 +237,8 @@ leadsFinal = leadsFinal.assign(
 leadsFinal = leadsFinal.drop(['state'], axis = 1)
 leadsFinal['isCust'] = [1 if x == 18 else 0 for x in leadsFinal['status']] 
 
-
+#%%
+#leadsFinal.to_csv(r'dataSets/leadsFinal.csv')
 
 #%%
 cols = ['dayName','state','electric_company','agentId']
