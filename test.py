@@ -59,3 +59,5 @@ model.fit(Atrain, bTrain)
 yhat = model.predict(Atest)
 yProba = model.predict_proba(Atest)
 # %%
+
+#### MERGE THE PREDICTED DATA WITH THE ORIGINAL DATA
