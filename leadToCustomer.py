@@ -361,6 +361,12 @@ metrics.accuracy_score(bTest, bPredict)
 featureChart
 
 #%%
+# Visualize the actual tree!
+# First look at these:
+# https://mljar.com/blog/visualize-decision-tree/
+#https://stackoverflow.com/questions/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft?page=1&tab=votes#tab-top
+
+#%%
 ###################################
 # Start the process for the 
 #   neural network
