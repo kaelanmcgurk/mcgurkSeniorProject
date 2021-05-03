@@ -275,8 +275,6 @@ from sklearn.metrics import accuracy_score, mean_squared_error
 X = leadInfoMLDum.drop(['isCust','status','lead_id','zip_code'], axis = 1)
 y = leadInfoMLDum.filter(items=['isCust'])
 
-A = leadsFinal.drop(['lead_id','status', 'isCust'],axis = 1)
-b = leadsFinal.filter(items = ['isCust'])
 
 #%%
 X_OS, y_OS = ro.fit_resample(X, y)
@@ -284,10 +282,6 @@ X_OS, y_OS = ro.fit_resample(X, y)
 X_OS = pd.DataFrame(X_OS)
 y_OS = pd.DataFrame(y_OS)
 
-A_OS, b_OS = ro.fit_resample(A, b)
-
-A_OS = pd.DataFrame(A_OS)
-b_OS = pd.DataFrame(b_OS)
 
 #%%
 Xtrain, Xtest, yTrain, yTest = train_test_split(
@@ -296,11 +290,6 @@ Xtrain, Xtest, yTrain, yTest = train_test_split(
     test_size=0.2
 )
 
-Atrain, Atest, bTrain, bTest = train_test_split(
-    A_OS, 
-    b_OS, 
-    test_size=0.2
-)
 
 # %%
 ###################################
@@ -312,8 +301,6 @@ Atrain, Atest, bTrain, bTest = train_test_split(
 ShineTreeClf = tree.DecisionTreeClassifier()
 ShineTreeClf.fit(Xtrain, yTrain)
 
-ShineTreeClfAB = tree.DecisionTreeClassifier()
-ShineTreeClfAB.fit(Atrain, bTrain)
 
 #%%
 ##################################
@@ -339,9 +326,37 @@ print(metrics.classification_report(yTest, yPredict))
 metrics.accuracy_score(yTest, yPredict)
 featureChart
 
-##
-##
+
+
+
+
+
+################################
+# ShineCLF Ab
+#
+# The Ab model
+################################
 #%%
+
+A = leadsFinal.drop(['lead_id','status', 'year', 'numberOfAppointments', 'month', 'isCust'],axis = 1)
+b = leadsFinal.filter(items = ['isCust'])
+
+A_OS, b_OS = ro.fit_resample(A, b)
+
+A_OS = pd.DataFrame(A_OS)
+b_OS = pd.DataFrame(b_OS)
+
+Atrain, Atest, bTrain, bTest = train_test_split(
+    A_OS, 
+    b_OS, 
+    test_size=0.2
+)
+
+#%%
+
+ShineTreeClfAB = tree.DecisionTreeClassifier(max_depth= 12)
+ShineTreeClfAB.fit(Atrain, bTrain)
+
 bPredict = ShineTreeClfAB.predict(Atest)
 
 featureDat = pd.DataFrame({
@@ -361,11 +376,80 @@ metrics.accuracy_score(bTest, bPredict)
 featureChart
 
 #%%
-# Visualize the actual tree!
-# First look at these:
-# https://mljar.com/blog/visualize-decision-tree/
-#https://stackoverflow.com/questions/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft?page=1&tab=votes#tab-top
+# Print out the predicted probabilities for my model
+bProba = ShineTreeClfAB.predict_proba(Atest)
 
+
+#%%
+# Visualize the actual tree!
+
+target = np.array(['notCust','Cust'])
+features = ['numberOfCalls', 'callTimeMinute', 'numberofStatuses', 'hoursSinceCall']
+from matplotlib import pyplot as plt
+
+
+fig = plt.figure(figsize=(25,20))
+_ = tree.plot_tree(ShineTreeClfAB, 
+                   feature_names=features,  
+                   class_names=target,
+                   filled=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#%%
+# Below are all the different models I tried, got close to, but
+#  ultimately failed
+'''
 #%%
 ###################################
 # Start the process for the 
@@ -545,7 +629,7 @@ print("Accuracy", accuracy)
 predictedLeads = model.predict_classes(test_ds, batch_size = batch_size)
 
 #%%
-'''
+
 #################################
 # Try another model with the agent_id
 #  not in there
