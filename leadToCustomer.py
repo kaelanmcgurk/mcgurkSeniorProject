@@ -338,7 +338,7 @@ featureChart
 ################################
 #%%
 
-A = leadsFinal.drop(['lead_id','status', 'year', 'numberOfAppointments', 'month', 'isCust'],axis = 1)
+A = leadsFinal.drop(['status', 'year', 'numberOfAppointments', 'month', 'isCust'],axis = 1)
 b = leadsFinal.filter(items = ['isCust'])
 
 A_OS, b_OS = ro.fit_resample(A, b)
@@ -346,15 +346,17 @@ A_OS, b_OS = ro.fit_resample(A, b)
 A_OS = pd.DataFrame(A_OS)
 b_OS = pd.DataFrame(b_OS)
 
-Atrain, Atest, bTrain, bTest = train_test_split(
+Atrain1, Atest1, bTrain, bTest = train_test_split(
     A_OS, 
     b_OS, 
     test_size=0.2
 )
 
-#%%
+Atrain = Atrain1.drop(['lead_id'], axis = 1)
+Atest = Atest1.drop(['lead_id'], axis = 1)
 
-ShineTreeClfAB = tree.DecisionTreeClassifier(max_depth= 12)
+
+ShineTreeClfAB = tree.DecisionTreeClassifier(max_depth = 12)
 ShineTreeClfAB.fit(Atrain, bTrain)
 
 bPredict = ShineTreeClfAB.predict(Atest)
@@ -378,6 +380,14 @@ featureChart
 #%%
 # Print out the predicted probabilities for my model
 bProba = ShineTreeClfAB.predict_proba(Atest)
+bProba = pd.DataFrame(bProba)
+
+leadGuess = Atest1.drop(['numberOfCalls','callTimeMinute','numberofStatuses','hoursSinceCall'], axis = 1)
+
+leadGuess['notCust'] = bProba[0]
+leadGuess['Cust'] = bProba[1]
+
+leadGuess = leadGuess.fillna("0")
 
 
 #%%
@@ -394,6 +404,7 @@ _ = tree.plot_tree(ShineTreeClfAB,
                    class_names=target,
                    filled=True)
 
+fig.savefig("Ab_decistion_tree.png")
 
 
 
