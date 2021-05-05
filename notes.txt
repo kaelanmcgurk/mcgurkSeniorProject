@@ -1,8 +1,8 @@
 Time I have spent on this project:
-Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th, 28th, 29th, May 3rd, 4th
+Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th, 28th, 29th, May 3rd, 4th, 5th
 
 (Updated on 4/21/21)
-Hours: ~129
+Hours: ~134
 
 Basic premise of what I have been working on for each day
 5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
@@ -109,3 +109,8 @@ May 3nd - May the 4th be with you ;) I played around with getting
     of keeping a lead. I also started work on getting new data and 
     running that through my Ab Model. I have the new data ready and
     I just need to merge it into one data table.
+
+May 5th; I worked with getting more details on the interpretation 
+    of the model and I found that the magic number for call time
+    length is 103.6 minutes. From there it gets more complicated but
+    I can go into more details later. 
