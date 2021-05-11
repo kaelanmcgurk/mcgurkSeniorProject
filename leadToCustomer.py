@@ -404,7 +404,7 @@ _ = tree.plot_tree(ShineTreeClfAB,
                    class_names=target,
                    filled=True)
 
-fig.savefig("Ab_decistion_tree.png")
+#fig.savefig("Ab_decistion_tree.png")
 
 
 
