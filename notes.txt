@@ -1,8 +1,8 @@
 Time I have spent on this project:
-Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th, 28th, 29th, May 3rd, 4th, 5th, 10th
+Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th, 28th, 29th, May 3rd, 4th, 5th, 10th, 12th
 
-(Updated on 4/21/21)
-Hours: ~136.5
+(Updated on 5/13/21)
+Hours: ~139.5
 
 Basic premise of what I have been working on for each day
 5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
@@ -116,3 +116,9 @@ May 5th; I worked with getting more details on the interpretation
     I can go into more details later. 
 
 May 10th; I just worked on my blog. Nothing special.
+
+May 13th; I began working with the post pruning method. It worked
+    ...kinda. I got it to prune but it does not seem to be overfitting
+    that much. I looks like the best consistent measure I can get
+    is for the training set and testing set to have an accuracy 
+    of around 0.82. I will look more into that later. 
