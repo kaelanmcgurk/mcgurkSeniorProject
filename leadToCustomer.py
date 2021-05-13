@@ -356,7 +356,7 @@ Atrain = Atrain1.drop(['lead_id'], axis = 1)
 Atest = Atest1.drop(['lead_id'], axis = 1)
 
 
-ShineTreeClfAB = tree.DecisionTreeClassifier(max_depth = 12)
+ShineTreeClfAB = tree.DecisionTreeClassifier()
 ShineTreeClfAB.fit(Atrain, bTrain)
 
 bPredict = ShineTreeClfAB.predict(Atest)
