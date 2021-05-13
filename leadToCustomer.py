@@ -5,6 +5,7 @@ import pandas as pd
 import altair as alt
 import numpy as np
 from altair_saver import save
+from matplotlib import pyplot as plt
 #from repTouchPoints import stc
 alt.data_transformers.disable_max_rows()
 
@@ -272,6 +273,7 @@ from sklearn import ensemble, tree
 from sklearn.metrics import accuracy_score, mean_squared_error
 
 
+
 X = leadInfoMLDum.drop(['isCust','status','lead_id','zip_code'], axis = 1)
 y = leadInfoMLDum.filter(items=['isCust'])
 
@@ -325,6 +327,41 @@ print(' ')
 print(metrics.classification_report(yTest, yPredict))
 metrics.accuracy_score(yTest, yPredict)
 featureChart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -387,32 +424,95 @@ leadGuess = Atest1.drop(['numberOfCalls','callTimeMinute','numberofStatuses','ho
 leadGuess['notCust'] = bProba[0]
 leadGuess['Cust'] = bProba[1]
 
-leadGuess = leadGuess.fillna("0")
+#leadGuess = leadGuess.fillna("0")
 
 
 #%%
 # Visualize the actual tree!
 
-target = np.array(['notCust','Cust'])
-features = ['numberOfCalls', 'callTimeMinute', 'numberofStatuses', 'hoursSinceCall']
-from matplotlib import pyplot as plt
+#target = np.array(['notCust','Cust'])
+#features = ['numberOfCalls', 'callTimeMinute', 'numberofStatuses', 'hoursSinceCall']
 
 
-fig = plt.figure(figsize=(25,20))
-_ = tree.plot_tree(ShineTreeClfAB, 
-                   feature_names=features,  
-                   class_names=target,
-                   filled=True)
+
+#fig = plt.figure(figsize=(25,20))
+#_ = tree.plot_tree(ShineTreeClfAB, 
+#                   feature_names=features,  
+#                   class_names=target,
+#                   filled=True)
 
 #fig.savefig("Ab_decistion_tree.png")
 
 
 
+#%%
+#################################
+# Attempt to postprune the 
+#   tree so that it is not 
+#   overfitting
+################################
 
+# View the path post pruning would take
+path = ShineTreeClfAB.cost_complexity_pruning_path(Atrain, bTrain)
+ccp_alphas, impurities = path.ccp_alphas, path.impurities
 
+fig, ax = plt.subplots()
+ax.plot(ccp_alphas[:-1], impurities[:-1], marker='o', drawstyle="steps-post")
+ax.set_xlabel("effective alpha")
+ax.set_ylabel("total impurity of leaves")
+ax.set_title("Total Impurity vs effective alpha for training set")
 
+#%%
 
+# This shows how the effective alpha moves as we prune more
+#    and more nodes
 
+clfs = []
+for ccp_alpha in ccp_alphas:
+    clf = DecisionTreeClassifier(random_state=0, ccp_alpha=ccp_alpha)
+    clf.fit(Atrain, bTrain)
+    clfs.append(clf)
+print("Number of nodes in the last tree is: {} with ccp_alpha: {}".format(
+      clfs[-1].tree_.node_count, ccp_alphas[-1]))
+
+#%%
+# Watch how the number of nodes and the actual depth of the 
+#   tree change as alpha increases    
+
+clfs = clfs[:-1]
+ccp_alphas = ccp_alphas[:-1]
+
+node_counts = [clf.tree_.node_count for clf in clfs]
+depth = [clf.tree_.max_depth for clf in clfs]
+fig, ax = plt.subplots(2, 1)
+ax[0].plot(ccp_alphas, node_counts, marker='o', drawstyle="steps-post")
+ax[0].set_xlabel("alpha")
+ax[0].set_ylabel("number of nodes")
+ax[0].set_title("Number of nodes vs alpha")
+ax[1].plot(ccp_alphas, depth, marker='o', drawstyle="steps-post")
+ax[1].set_xlabel("alpha")
+ax[1].set_ylabel("depth of tree")
+ax[1].set_title("Depth vs alpha")
+fig.tight_layout()
+
+#%%
+
+#Finally, we look at the training and testing data to see the
+#   effect post pruning has on accuracy
+    
+train_scores = [clf.score(Atrain, bTrain) for clf in clfs]
+test_scores = [clf.score(Atest, bTest) for clf in clfs]
+
+fig, ax = plt.subplots()
+ax.set_xlabel("alpha")
+ax.set_ylabel("accuracy")
+ax.set_title("Accuracy vs alpha for training and testing sets")
+ax.plot(ccp_alphas, train_scores, marker='o', label="train",
+        drawstyle="steps-post")
+ax.plot(ccp_alphas, test_scores, marker='o', label="test",
+        drawstyle="steps-post")
+ax.legend()
+plt.show()
 
 
 
