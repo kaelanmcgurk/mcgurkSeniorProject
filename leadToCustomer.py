@@ -248,6 +248,12 @@ leadInfoMLDum = pd.get_dummies(leadInfoML, columns = cols)
 colsTwo = ['dayName','state','agentId']
 combinedDum = pd.get_dummies(combined, columns = colsTwo)
 
+
+
+
+
+
+
 #%%
 # Random oversample the data to get an equal amount of 
 #  customers to nonCustomers
@@ -271,100 +277,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix, classification_report
 from sklearn import ensemble, tree
 from sklearn.metrics import accuracy_score, mean_squared_error
-
-
-
-X = leadInfoMLDum.drop(['isCust','status','lead_id','zip_code'], axis = 1)
-y = leadInfoMLDum.filter(items=['isCust'])
-
-
-#%%
-X_OS, y_OS = ro.fit_resample(X, y)
-
-X_OS = pd.DataFrame(X_OS)
-y_OS = pd.DataFrame(y_OS)
-
-
-#%%
-Xtrain, Xtest, yTrain, yTest = train_test_split(
-    X_OS, 
-    y_OS, 
-    test_size=0.2
-)
-
-
-# %%
-###################################
-# Train the model:
-#   Tree Model
-# 
-###################################
-
-ShineTreeClf = tree.DecisionTreeClassifier()
-ShineTreeClf.fit(Xtrain, yTrain)
-
-
-#%%
-##################################
-# Test the model:
-#   Tree Model
-#
-#################################
-yPredict = ShineTreeClf.predict(Xtest)
-
-featureDat = pd.DataFrame({
-    "values":ShineTreeClf.feature_importances_,
-    "features":Xtrain.columns})
-featureChart = (alt.Chart(featureDat.query('values > .017'))
-    .encode(
-     alt.X("values"),
-     alt.Y("features", sort = "-x"))
-    .mark_bar()
-)
-featureChart
-metrics.plot_confusion_matrix(ShineTreeClf, Xtest,yTest)
-print(' ')
-print(metrics.classification_report(yTest, yPredict))
-metrics.accuracy_score(yTest, yPredict)
-featureChart
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -393,7 +305,7 @@ Atrain = Atrain1.drop(['lead_id'], axis = 1)
 Atest = Atest1.drop(['lead_id'], axis = 1)
 
 
-ShineTreeClfAB = tree.DecisionTreeClassifier()
+ShineTreeClfAB = tree.DecisionTreeClassifier(ccp_alpha = 0.0004)
 ShineTreeClfAB.fit(Atrain, bTrain)
 
 bPredict = ShineTreeClfAB.predict(Atest)
@@ -430,18 +342,20 @@ leadGuess['Cust'] = bProba[1]
 #%%
 # Visualize the actual tree!
 
-#target = np.array(['notCust','Cust'])
-#features = ['numberOfCalls', 'callTimeMinute', 'numberofStatuses', 'hoursSinceCall']
+target = np.array(['notCust','Cust'])
+features = ['numberOfCalls', 'callTimeMinute', 'numberofStatuses', 'hoursSinceCall']
 
 
 
-#fig = plt.figure(figsize=(25,20))
-#_ = tree.plot_tree(ShineTreeClfAB, 
-#                   feature_names=features,  
-#                   class_names=target,
-#                   filled=True)
+fig = plt.figure(figsize=(25,20))
+_ = tree.plot_tree(ShineTreeClfAB, 
+                   feature_names=features,  
+                   class_names=target,
+                   filled=True)
 
 #fig.savefig("Ab_decistion_tree.png")
+
+
 
 
 
@@ -514,7 +428,7 @@ ax.plot(ccp_alphas, test_scores, marker='o', label="test",
 ax.legend()
 plt.show()
 
-
+#%%
 
 
 
@@ -561,6 +475,63 @@ plt.show()
 # Below are all the different models I tried, got close to, but
 #  ultimately failed
 '''
+
+
+X = leadInfoMLDum.drop(['isCust','status','lead_id','zip_code'], axis = 1)
+y = leadInfoMLDum.filter(items=['isCust'])
+
+
+#%%
+X_OS, y_OS = ro.fit_resample(X, y)
+
+X_OS = pd.DataFrame(X_OS)
+y_OS = pd.DataFrame(y_OS)
+
+
+#%%
+Xtrain, Xtest, yTrain, yTest = train_test_split(
+    X_OS, 
+    y_OS, 
+    test_size=0.2
+)
+
+
+# %%
+###################################
+# Train the model:
+#   Tree Model
+# 
+###################################
+
+ShineTreeClf = tree.DecisionTreeClassifier()
+ShineTreeClf.fit(Xtrain, yTrain)
+
+
+#%%
+##################################
+# Test the model:
+#   Tree Model
+#
+#################################
+yPredict = ShineTreeClf.predict(Xtest)
+
+featureDat = pd.DataFrame({
+    "values":ShineTreeClf.feature_importances_,
+    "features":Xtrain.columns})
+featureChart = (alt.Chart(featureDat.query('values > .017'))
+    .encode(
+     alt.X("values"),
+     alt.Y("features", sort = "-x"))
+    .mark_bar()
+)
+featureChart
+metrics.plot_confusion_matrix(ShineTreeClf, Xtest,yTest)
+print(' ')
+print(metrics.classification_report(yTest, yPredict))
+metrics.accuracy_score(yTest, yPredict)
+featureChart
+
+
 #%%
 ###################################
 # Start the process for the 
