@@ -1,7 +1,7 @@
 Time I have spent on this project:
 Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th, 28th, 29th, May 3rd, 4th, 5th, 10th, 12th
 
-(Updated on 5/13/21)
+(Updated on 5/14/21)
 Hours: ~139.5
 
 Basic premise of what I have been working on for each day
@@ -122,3 +122,11 @@ May 13th; I began working with the post pruning method. It worked
     that much. I looks like the best consistent measure I can get
     is for the training set and testing set to have an accuracy 
     of around 0.82. I will look more into that later. 
+
+May 14th; I have completed the project. I went through the post 
+    pruning and found the proper ccp_alpha. I know how to describe it
+    and work through each step of the tree. I can make sense of
+    the probability output and it is ready to have new data be
+    put into it. I am not sure what else I could do to it.
+    I mean... there are plenty of things I can do to it, but
+    what I set out to do is done.
