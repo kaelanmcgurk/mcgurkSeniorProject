@@ -68,3 +68,20 @@ stcData['callStarted'] = pd.to_datetime(stcData['callStarted'])
 speedToContact = stcData.groupby(['leadId']).agg({'hoursSinceCall':np.min, 'callStarted':np.min}).reset_index()
 stc = speedToContact.loc[speedToContact.groupby('leadId')['hoursSinceCall'].idxmin()]
 # %%
+leadsCombined = callLogs.merge(statusHistory)
+leadsDat = leadsCombined.merge(stc, left_on = 'lead_id', right_on = 'leadId')
+leadsFinal = leadsDat.drop(['leadId', 'callStarted'], axis = 1)
+
+# %%
+##########################
+# Make predictions on new
+#	data
+#
+##########################
+
+from leadToCustomer import ShineTreeClfAB
+
+inputData = leadsFinal.drop(['lead_id'], axis = 1)
+# %%
+outputProbability = ShineTreeClfAB.predict_proba
+# %%
