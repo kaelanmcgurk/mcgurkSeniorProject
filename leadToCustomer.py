@@ -305,7 +305,7 @@ Atrain = Atrain1.drop(['lead_id'], axis = 1)
 Atest = Atest1.drop(['lead_id'], axis = 1)
 
 
-ShineTreeClfAB = tree.DecisionTreeClassifier(ccp_alpha = 0.0004)
+ShineTreeClfAB = tree.DecisionTreeClassifier(ccp_alpha = 0.0003)
 ShineTreeClfAB.fit(Atrain, bTrain)
 
 bPredict = ShineTreeClfAB.predict(Atest)
@@ -331,13 +331,20 @@ featureChart
 bProba = ShineTreeClfAB.predict_proba(Atest)
 bProba = pd.DataFrame(bProba)
 
-leadGuess = Atest1.drop(['numberOfCalls','callTimeMinute','numberofStatuses','hoursSinceCall'], axis = 1)
+notCust = pd.DataFrame(bProba[0])
+cust = pd.DataFrame(bProba[1])
+#%%
+leadGuess = Atest1['lead_id']
+leadGuess = pd.DataFrame(leadGuess).reset_index(drop=True)
 
-leadGuess['notCust'] = bProba[0]
-leadGuess['Cust'] = bProba[1]
+#%%
+leadGuess['notCust'] = notCust
+leadGuess['Cust'] = cust
 
 #leadGuess = leadGuess.fillna("0")
 
+#%%
+leadGuess.to_csv(r'dataSets/PredictionForLeads.csv')
 
 #%%
 # Visualize the actual tree!
@@ -364,6 +371,12 @@ _ = tree.plot_tree(ShineTreeClfAB,
 # Attempt to postprune the 
 #   tree so that it is not 
 #   overfitting
+#
+#  This worked... OK?
+#   I mean, it helped stop overfitting,
+#   but even my overfit model performed
+#   over 90% recall when working
+#   with test data.    
 ################################
 
 # View the path post pruning would take
