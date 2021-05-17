@@ -83,5 +83,18 @@ from leadToCustomer import ShineTreeClfAB
 
 inputData = leadsFinal.drop(['lead_id'], axis = 1)
 # %%
-outputProbability = ShineTreeClfAB.predict_proba
+inputData = inputData.fillna(0)
+outputProbability = ShineTreeClfAB.predict_proba(inputData)
+
+outputProbability = pd.DataFrame(outputProbability)
+
+notCust = pd.DataFrame(outputProbability[0])
+cust = pd.DataFrame(outputProbability[1])
+
+leadGuess = leadsFinal['lead_id']
+leadGuess = pd.DataFrame(leadGuess).reset_index(drop=True)
+
+
+leadGuess['notCust'] = notCust
+leadGuess['Cust'] = cust
 # %%
