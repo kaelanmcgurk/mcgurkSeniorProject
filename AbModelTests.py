@@ -40,7 +40,11 @@ SELECT
 FROM leads l
 JOIN call_logs cl ON l.lead_id = cl.lead
 JOIN lead_sources ls ON ls.source_id = l.lead_source
-WHERE cl.user  != 6585993 AND l.date_created > '2021/03/05' AND l.status != 18 AND cl.call_started > l.date_created AND LOCATE("Scheduled", ls.source_name) = 0;
+WHERE cl.user  != 6585993 AND 
+	l.date_created > '2021/03/05' AND 
+	l.status != 18 AND 
+	cl.call_started > l.date_created AND 
+	LOCATE("Scheduled", ls.source_name) = 0;
 '''
 #%%
 ########################
