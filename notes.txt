@@ -1,8 +1,11 @@
 Time I have spent on this project:
-Feb 5, 8-12, 15-19, 22-24, March 5, 16, April 9th, 16th, 20th, 21st, 26th, 27th, 28th, 29th, May 3rd, 4th, 5th, 10th, 12th
+Feb 5, 8-12, 15-19, 22-24, 
+March 5, 16,
+April 9th, 16th, 20th, 21st, 26th, 27th, 28th, 29th, 
+May 3rd, 4th, 5th, 10th, 13th, 14th, 20th
 
-(Updated on 5/14/21)
-Hours: ~139.5
+(Updated on 5/20/21)
+Hours: ~145
 
 Basic premise of what I have been working on for each day
 5th; Think about what metrics I want to have in my algorithm. Which stats would BEST tell me which leads become customers
@@ -130,3 +133,5 @@ May 14th; I have completed the project. I went through the post
     put into it. I am not sure what else I could do to it.
     I mean... there are plenty of things I can do to it, but
     what I set out to do is done.
+
+May 20th; Hey hey guess what! More blog... yay
