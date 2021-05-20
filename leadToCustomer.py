@@ -354,7 +354,7 @@ features = ['numberOfCalls', 'callTimeMinute', 'numberofStatuses', 'hoursSinceCa
 
 
 
-fig = plt.figure(figsize=(25,20))
+fig = plt.figure(figsize=(50, 40))
 _ = tree.plot_tree(ShineTreeClfAB, 
                    feature_names=features,  
                    class_names=target,
